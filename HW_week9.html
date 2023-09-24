@@ -1,18 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Population-Weighted PM 2.5 in Indonesia</title>
-  <!-- Include Vega-Embed script -->
+  <title>Distribution of Population-Weighted PM 2.5 in Indonesia </title>
   <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
 </head>
 <body>
-  <!-- Container for the Vega-Lite visualization -->
   <div id="vis"></div>
 
   <script>
-    // Define your Vega-Lite specification here (e.g., vegaLiteSpec)
     const vegaLiteSpec = {
       "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
       "title": "Distribution of Population-Weighted PM 2.5 in Indonesia",
@@ -71,9 +68,6 @@
       ]
     }
   }
-
-
-    // Embed the Vega-Lite visualization in the "vis" div
     vegaEmbed("#vis", vegaLiteSpec)
       .then((result) => console.log(result))
       .catch(console.error);
