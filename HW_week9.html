@@ -5,10 +5,10 @@
   <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
 
-  <title>Air Quality in Indonesia </title>
+  <title>Air Quality in Indonesia</title>
 </head>
 <body>
-  <h1>Air Quality in Indonesia </h1>
+  <h1>Air Quality in Indonesia</h1>
   <div id="vis"></div>
 
   <script>
@@ -29,49 +29,73 @@
       },
       "transform": [
         {
-        "lookup": "properties.name_en",
-        "from": {
-          "data": {
-            "url": "https://raw.githubusercontent.com/Florencia-Stella/FIT3179/main/aqli_country_data_Indonesia_who_2021.csv",
-            "format": {
-              "type": "csv"
-            }
-          },
-          "key": "Province",
-          "fields": ["PM"]
+          "lookup": "properties.name_en",
+          "from": {
+            "data": {
+              "url": "https://raw.githubusercontent.com/Florencia-Stella/FIT3179/main/aqli_country_data_Indonesia_who_2021.csv",
+              "format": {
+                "type": "csv"
+              }
+            },
+            "key": "Province",
+            "fields": ["PM"]
+          }
         }
-      }
-    ],
-    "mark": {
-      "type": "geoshape"
-    },
-    "encoding": {
-      "color": {
-        "field": "PM",
-        "type": "quantitative",
-        "scale": {
-          "type": "threshold",
-          "domain": [12.5, 25, 50],
-          "range": ["#fdbe85", "#fd8d3c", "#e6550d", "#a63603"]
-        },
-        "title": "PM 2.5 (µg/m³)"
+      ],
+      "mark": {
+        "type": "geoshape"
       },
-      "tooltip": [
-        {
-          "field": "properties.name_en",
-          "type": "nominal",
-          "title": "Province"
-        },
-        {
+      "encoding": {
+        "color": {
           "field": "PM",
           "type": "quantitative",
+          "scale": {
+            "type": "threshold",
+            "domain": [12.5, 25, 50],
+            "range": ["#fdbe85", "#fd8d3c", "#e6550d", "#a63603"]
+          },
           "title": "PM 2.5 (µg/m³)"
-        }
-      ]
-    }
-  }
-    vegaEmbed("#vis", vegaLiteSpec)
-      .then((result) => console.log(result))
+        },
+        "tooltip": [
+          {
+            "field": "properties.name_en",
+            "type": "nominal",
+            "title": "Province"
+          },
+          {
+            "field": "PM",
+            "type": "quantitative",
+            "title": "PM 2.5 (µg/m³)"
+          }
+        ]
+      }
+    };
+
+    const graticuleSpec = {
+      "data": {
+        "values": [
+          {"lon": -180, "lat": 0},
+          {"lon": 180, "lat": 0},
+          {"lon": 0, "lat": -90},
+          {"lon": 0, "lat": 90}
+        ]
+      },
+      "mark": {
+        "type": "line",
+        "clip": true
+      },
+      "encoding": {
+        "longitude": {"field": "lon", "type": "quantitative"},
+        "latitude": {"field": "lat", "type": "quantitative"},
+        "color": {"value": "gray"} // Color of the graticule lines
+      }
+    };
+
+    vegaEmbed("#vis", vegaLiteSpec, { actions: false })
+      .then((result) => {
+        vegaEmbed("#vis", graticuleSpec, { actions: false, renderer: "svg" });
+        console.log(result);
+      })
       .catch(console.error);
   </script>
 </body>
