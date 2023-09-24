@@ -56,6 +56,25 @@
         },
         "title": "PM 2.5 (µg/m³)"
       },
+      {
+      "data": {
+        "values": [
+          {"lon": -180, "lat": 0},
+          {"lon": 180, "lat": 0},
+          {"lon": 0, "lat": -90},
+          {"lon": 0, "lat": 90}
+        ]
+      },
+      "mark": {
+        "type": "line",
+        "clip": true
+      },
+      "encoding": {
+        "longitude": {"field": "lon", "type": "quantitative"},
+        "latitude": {"field": "lat", "type": "quantitative"},
+        "color": {"value": "gray"} // Color of the graticule lines
+      }
+    },
       "tooltip": [
         {
           "field": "properties.name_en",
