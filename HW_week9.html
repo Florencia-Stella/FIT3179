@@ -29,34 +29,49 @@
       },
       "transform": [
         {
-        "lookup": "properties.name_en",
-        "from": {
-          "data": {
-            "url": "https://raw.githubusercontent.com/Florencia-Stella/FIT3179/main/aqli_country_data_Indonesia_who_2021.csv",
-            "format": {
-              "type": "csv"
-            }
-          },
-          "key": "Province",
-          "fields": ["PM"]
+          "lookup": "properties.name_en",
+          "from": {
+            "data": {
+              "url": "https://raw.githubusercontent.com/Florencia-Stella/FIT3179/main/aqli_country_data_Indonesia_who_2021.csv",
+              "format": {
+                "type": "csv"
+              }
+            },
+            "key": "Province",
+            "fields": ["PM"]
+          }
         }
-      }
-    ],
-    "mark": {
-      "type": "geoshape"
-    },
-    "encoding": {
-      "color": {
-        "field": "PM",
-        "type": "quantitative",
-        "scale": {
-          "type": "threshold",
-          "domain": [12.5, 25, 50],
-          "range": ["#fdbe85", "#fd8d3c", "#e6550d", "#a63603"]
-        },
-        "title": "PM 2.5 (µg/m³)"
+      ],
+      "mark": {
+        "type": "geoshape"
       },
-      {
+      "encoding": {
+        "color": {
+          "field": "PM",
+          "type": "quantitative",
+          "scale": {
+            "type": "threshold",
+            "domain": [12.5, 25, 50],
+            "range": ["#fdbe85", "#fd8d3c", "#e6550d", "#a63603"]
+          },
+          "title": "PM 2.5 (µg/m³)"
+        },
+        "tooltip": [
+          {
+            "field": "properties.name_en",
+            "type": "nominal",
+            "title": "Province"
+          },
+          {
+            "field": "PM",
+            "type": "quantitative",
+            "title": "PM 2.5 (µg/m³)"
+          }
+        ]
+      }
+    };
+
+    const graticuleSpec = {
       "data": {
         "values": [
           {"lon": -180, "lat": 0},
@@ -74,23 +89,13 @@
         "latitude": {"field": "lat", "type": "quantitative"},
         "color": {"value": "gray"} // Color of the graticule lines
       }
-    },
-      "tooltip": [
-        {
-          "field": "properties.name_en",
-          "type": "nominal",
-          "title": "Province"
-        },
-        {
-          "field": "PM",
-          "type": "quantitative",
-          "title": "PM 2.5 (µg/m³)"
-        }
-      ]
-    }
-  }
-    vegaEmbed("#vis", vegaLiteSpec)
-      .then((result) => console.log(result))
+    };
+
+    vegaEmbed("#vis", vegaLiteSpec, { actions: false })
+      .then((result) => {
+        vegaEmbed("#vis", graticuleSpec, { actions: false, renderer: "svg" });
+        console.log(result);
+      })
       .catch(console.error);
   </script>
 </body>
