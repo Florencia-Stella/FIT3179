@@ -1,0 +1,146 @@
+"Province","Measurement","Value"
+"Aceh","AQI",4
+"Aceh","CO_AQI",5
+"Aceh","Ozone_AQI",5
+"Aceh","NO2_AQI",5
+"Aceh","PM25_AQI",4
+"Bali","AQI",5
+"Bali","CO_AQI",5
+"Bali","Ozone_AQI",5
+"Bali","NO2_AQI",5
+"Bali","PM25_AQI",5
+"Banten","AQI",1
+"Banten","CO_AQI",5
+"Banten","Ozone_AQI",1
+"Banten","NO2_AQI",5
+"Banten","PM25_AQI",2
+"Bengkulu","AQI",4
+"Bengkulu","CO_AQI",5
+"Bengkulu","Ozone_AQI",5
+"Bengkulu","NO2_AQI",5
+"Bengkulu","PM25_AQI",4
+"Di Yogyakarta","AQI",4
+"Di Yogyakarta","CO_AQI",5
+"Di Yogyakarta","Ozone_AQI",5
+"Di Yogyakarta","NO2_AQI",5
+"Di Yogyakarta","PM25_AQI",4
+"Gorontalo","AQI",5
+"Gorontalo","CO_AQI",5
+"Gorontalo","Ozone_AQI",5
+"Gorontalo","NO2_AQI",5
+"Gorontalo","PM25_AQI",5
+"Jambi","AQI",4
+"Jambi","CO_AQI",5
+"Jambi","Ozone_AQI",5
+"Jambi","NO2_AQI",5
+"Jambi","PM25_AQI",4
+"Jawa Barat","AQI",3
+"Jawa Barat","CO_AQI",5
+"Jawa Barat","Ozone_AQI",4
+"Jawa Barat","NO2_AQI",5
+"Jawa Barat","PM25_AQI",3
+"Jawa Tengah","AQI",3
+"Jawa Tengah","CO_AQI",5
+"Jawa Tengah","Ozone_AQI",4
+"Jawa Tengah","NO2_AQI",5
+"Jawa Tengah","PM25_AQI",3
+"Jawa Timur","AQI",3
+"Jawa Timur","CO_AQI",5
+"Jawa Timur","Ozone_AQI",4
+"Jawa Timur","NO2_AQI",5
+"Jawa Timur","PM25_AQI",3
+"Kalimantan Barat","AQI",4
+"Kalimantan Barat","CO_AQI",5
+"Kalimantan Barat","Ozone_AQI",5
+"Kalimantan Barat","NO2_AQI",5
+"Kalimantan Barat","PM25_AQI",4
+"Kalimantan Selatan","AQI",4
+"Kalimantan Selatan","CO_AQI",5
+"Kalimantan Selatan","Ozone_AQI",5
+"Kalimantan Selatan","NO2_AQI",5
+"Kalimantan Selatan","PM25_AQI",4
+"Kalimantan Timur","AQI",4
+"Kalimantan Timur","CO_AQI",5
+"Kalimantan Timur","Ozone_AQI",5
+"Kalimantan Timur","NO2_AQI",5
+"Kalimantan Timur","PM25_AQI",4
+"Kalimantan Utara","AQI",5
+"Kalimantan Utara","CO_AQI",5
+"Kalimantan Utara","Ozone_AQI",5
+"Kalimantan Utara","NO2_AQI",5
+"Kalimantan Utara","PM25_AQI",5
+"Lampung","AQI",4
+"Lampung","CO_AQI",5
+"Lampung","Ozone_AQI",5
+"Lampung","NO2_AQI",5
+"Lampung","PM25_AQI",4
+"Maluku","AQI",5
+"Maluku","CO_AQI",5
+"Maluku","Ozone_AQI",5
+"Maluku","NO2_AQI",5
+"Maluku","PM25_AQI",5
+"Nusa Tenggara Barat","AQI",5
+"Nusa Tenggara Barat","CO_AQI",5
+"Nusa Tenggara Barat","Ozone_AQI",5
+"Nusa Tenggara Barat","NO2_AQI",5
+"Nusa Tenggara Barat","PM25_AQI",5
+"Nusa Tenggara Timur","AQI",5
+"Nusa Tenggara Timur","CO_AQI",5
+"Nusa Tenggara Timur","Ozone_AQI",5
+"Nusa Tenggara Timur","NO2_AQI",5
+"Nusa Tenggara Timur","PM25_AQI",5
+"Papua","AQI",5
+"Papua","CO_AQI",5
+"Papua","Ozone_AQI",5
+"Papua","NO2_AQI",5
+"Papua","PM25_AQI",5
+"Papua Barat","AQI",5
+"Papua Barat","CO_AQI",5
+"Papua Barat","Ozone_AQI",5
+"Papua Barat","NO2_AQI",5
+"Papua Barat","PM25_AQI",5
+"Riau","AQI",5
+"Riau","CO_AQI",5
+"Riau","Ozone_AQI",5
+"Riau","NO2_AQI",5
+"Riau","PM25_AQI",5
+"Sulawesi Barat","AQI",5
+"Sulawesi Barat","CO_AQI",5
+"Sulawesi Barat","Ozone_AQI",5
+"Sulawesi Barat","NO2_AQI",5
+"Sulawesi Barat","PM25_AQI",5
+"Sulawesi Selatan","AQI",5
+"Sulawesi Selatan","CO_AQI",5
+"Sulawesi Selatan","Ozone_AQI",5
+"Sulawesi Selatan","NO2_AQI",5
+"Sulawesi Selatan","PM25_AQI",5
+"Sulawesi Tengah","AQI",5
+"Sulawesi Tengah","CO_AQI",5
+"Sulawesi Tengah","Ozone_AQI",5
+"Sulawesi Tengah","NO2_AQI",5
+"Sulawesi Tengah","PM25_AQI",5
+"Sulawesi Tenggara","AQI",4
+"Sulawesi Tenggara","CO_AQI",5
+"Sulawesi Tenggara","Ozone_AQI",5
+"Sulawesi Tenggara","NO2_AQI",5
+"Sulawesi Tenggara","PM25_AQI",4
+"Sulawesi Utara","AQI",5
+"Sulawesi Utara","CO_AQI",5
+"Sulawesi Utara","Ozone_AQI",5
+"Sulawesi Utara","NO2_AQI",5
+"Sulawesi Utara","PM25_AQI",5
+"Sumatera Barat","AQI",4
+"Sumatera Barat","CO_AQI",5
+"Sumatera Barat","Ozone_AQI",5
+"Sumatera Barat","NO2_AQI",5
+"Sumatera Barat","PM25_AQI",4
+"Sumatera Selatan","AQI",4
+"Sumatera Selatan","CO_AQI",5
+"Sumatera Selatan","Ozone_AQI",5
+"Sumatera Selatan","NO2_AQI",5
+"Sumatera Selatan","PM25_AQI",4
+"Sumatera Utara","AQI",4
+"Sumatera Utara","CO_AQI",5
+"Sumatera Utara","Ozone_AQI",4
+"Sumatera Utara","NO2_AQI",5
+"Sumatera Utara","PM25_AQI",4
