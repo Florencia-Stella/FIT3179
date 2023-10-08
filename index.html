@@ -8,10 +8,16 @@
 </head>
 <body>
   <h1>Air Quality in Indonesia</h1>
-  <div id="vis"></div>
+  
+  <!-- First Visualization -->
+  <div id="vis1"></div>
+  
+  <!-- Second Visualization -->
+  <div id="vis2"></div>
 
   <script>
-    const vegaLiteSpec = {
+    // First Visualization Specification
+    const vegaLiteSpec1 = {
       "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
       "title": "Distribution of Population-Weighted PM 2.5 in Indonesia in 2021",
       "width": 1000,
@@ -28,53 +34,278 @@
       },
       "transform": [
         {
-        "lookup": "properties.name_en",
-        "from": {
-          "data": {
-            "url": "https://raw.githubusercontent.com/Florencia-Stella/FIT3179/main/aqli_country_data_Indonesia_who_2021.csv",
-            "format": {
-              "type": "csv"
-            }
-          },
-          "key": "Province",
-          "fields": ["PM"]
-        }
-      }
-    ],
-    "mark": {
-      "type": "geoshape"
-    },
-    "encoding": {
-      "color": {
-        "field": "PM",
-        "type": "quantitative",
-        "scale": {
-          "type": "threshold",
-          "domain": [12.5, 25, 50],
-          "range": ["#fdbe85", "#fd8d3c", "#e6550d", "#a63603"]
-        },
-        "title": "PM 2.5 (µg/m³)"
-      },
-      "tooltip": [
-        {
-          "field": "properties.name_en",
-          "type": "nominal",
-          "title": "Province"
-        },
-        {
-          "field": "PM",
-          "type": "quantitative",
-          "title": "PM 2.5 (µg/m³)"
+          "lookup": "properties.name_en",
+          "from": {
+            "data": {
+              "url": "https://raw.githubusercontent.com/Florencia-Stella/FIT3179/main/aqli_country_data_Indonesia_who_2021.csv",
+              "format": {
+                "type": "csv"
+              }
+            },
+            "key": "Province",
+            "fields": ["PM"]
+          }
         }
       ],
-      "stroke": {
-        "value": "gray"
+      "mark": {
+        "type": "geoshape"
+      },
+      "encoding": {
+        "color": {
+          "field": "PM",
+          "type": "quantitative",
+          "scale": {
+            "type": "threshold",
+            "domain": [12.5, 25, 50],
+            "range": ["#fdbe85", "#fd8d3c", "#e6550d", "#a63603"]
+          },
+          "title": "PM 2.5 (µg/m³)"
+        },
+        "tooltip": [
+          {
+            "field": "properties.name_en",
+            "type": "nominal",
+            "title": "Province"
+          },
+          {
+            "field": "PM",
+            "type": "quantitative",
+            "title": "PM 2.5 (µg/m³)"
+          }
+        ],
+        "stroke": {
+          "value": "gray"
+        }
       }
-    }
-  }
+    };
 
+    // Second Visualization Specification
+    const vegaLiteSpec2 = {
+      "$schema": "https://vega.github.io/schema/vega/v5.json",
+      "width": 400,
+      "height": 400,
+      "title": {"text": "Radar chart for AQI data by Province in 2021", "align": "right"},
+      "padding": 70,
+      "autosize": { "type": "none", "contains": "padding" },
+      "signals": [
+        { "name": "radius", "update": "width / 2" },
+        {
+          "name": "Province",
+          "value": "Average",
+          "bind": {
+            "input": "select",
+            "options": ["Average", "Aceh", "Bali", "Banten", "Bengkulu", "Di Yogyakarta", "Gorontalo", "Jambi", "Jawa Barat", "Jawa Tengah", "Jawa Timur", "Kalimantan Barat", "Kalimantan Selatan", "Kalimantan Timur", "Kalimantan Utara", "Lampung", "Maluku", "Nusa Tenggara Barat", "Nusa Tenggara Timur", "Papua", "Papua Barat", "Riau", "Sulawesi Barat", "Sulawesi Selatan", "Sulawesi Tengah", "Sulawesi Tenggara", "Sulawesi Utara", "Sumatera Barat", "Sumatera Selatan", "Sumatera Utara"]
+          }
+        }
+      ],
+      "data": [
+        {
+          "url": "https://raw.githubusercontent.com/Florencia-Stella/FIT3179/main/reformatted_data.csv",
+          "name": "data",
+          "format": { "type": "csv" },
+          "transform": [
+            {
+              "type": "filter",
+              "expr": "Province === null || datum.Province === Province || datum.Province === 'Average'"
+            }
+          ]
+        }
+      ],
+      "scales": [
+        {
+          "name": "angular",
+          "type": "point",
+          "range": { "signal": "[-PI, PI]" },
+          "padding": 0.5,
+          "domain": { "data": "data", "field": "Measurement" }
+        },
+        {
+          "name": "radial",
+          "type": "linear",
+          "range": { "signal": "[0, radius]" },
+          "zero": true,
+          "nice": false,
+          "domain": { "data": "data", "field": "Value" },
+          "domainMin": 0
+        },
+        {
+          "name": "color",
+          "type": "ordinal",
+          "domain": { "data": "data", "field": "Province" },
+          "range": { "scheme": "category10" }
+        }
+      ],
+      "encode": {
+        "enter": {
+          "x": { "signal": "radius" },
+          "y": { "signal": "radius" }
+        }
+      },
+      "marks": [
+        {
+          "type": "group",
+          "name": "categories",
+          "zindex": 1,
+          "encode": {
+            "enter": {
+              "x": { "signal": "1" }, 
+              "y": { "signal": "1" }, 
+              "width": { "value": 400 },
+              "height": { "value": 400 }
+            }
+          },
+          "from": {
+            "facet": { "data": "data", "name": "facet", "groupby": ["Province"] }
+          },
+          "marks": [
+            {
+              "type": "line",
+              "name": "category-line",
+              "from": { "data": "facet" },
+              "encode": {
+                "enter": {
+                  "interpolate": { "value": "linear-closed" },
+                  "x": {"signal": "scale('radial', datum.Value) * cos(scale('angular', datum.Measurement))"},
+                  "y": {"signal": "scale('radial', datum.Value) * sin(scale('angular', datum.Measurement))"},
+                  "stroke": { "scale": "color", "field": "Province" },
+                  "strokeWidth": { "value": 1 },
+                  "fill": { "scale": "color", "field": "Province" },
+                  "fillOpacity": { "value": 0.1 }
+                }
+              }
+            },
+            {
+              "type": "area",
+              "name": "category-area",
+              "from": { "data": "facet" },
+              "encode": {
+                "enter": {
+                  "interpolate": { "value": "linear-closed" },
+                  "x": { "scale": "radial", "field": "Value" },
+                  "y": { "scale": "angular", "field": "Measurement" },
+                  "fill": { "scale": "color", "field": "Province" },
+                  "fillOpacity": { "value": 0.3 }
+                }
+              }
+            },
+            {
+              "type": "symbol",
+              "from": { "data": "facet" },
+              "name": "data-points",
+              "encode": {
+                "enter": {
+                  "x": {"signal": "scale('radial', datum.Value) * cos(scale('angular', datum.Measurement))"},
+                  "y": {"signal": "scale('radial', datum.Value) * sin(scale('angular', datum.Measurement))"},
+                  "fill": { "scale": "color", "field": "Province" },
+                  "size": { "value": 20 },
+                  "stroke": { "value": "black" },
+                  "strokeWidth": { "value": 1 }
+                },
+                "update": {
+                  "tooltip": {
+                    "signal": "{'Province': datum.Province, 'Measurement': datum.Measurement, 'Value': datum.Value}"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "rule",
+          "name": "radial-grid",
+          "from": { "data": "data" },
+          "zindex": 0,
+          "encode": {
+            "enter": {
+              "x": { "value": 0 },
+              "y": { "value": 0 },
+              "x2": { "signal": "radius * cos(scale('angular', datum.Measurement))" },
+              "y2": { "signal": "radius * sin(scale('angular', datum.Measurement))" },
+              "stroke": { "value": "lightgray" },
+              "strokeWidth": { "value": 1 }
+            }
+          }
+        },
+        {
+          "type": "text",
+          "name": "key-label",
+          "from": { "data": "data" },
+          "zindex": 1,
+          "encode": {
+            "enter": {
+              "x": { "signal": "(radius + 5) * cos(scale('angular', datum.Measurement))" },
+              "y": { "signal": "(radius + 5) * sin(scale('angular', datum.Measurement))" },
+              "text": { "field": "Measurement" },
+              "align": [
+                {
+                  "test": "abs(scale('angular', datum.Measurement)) > PI / 2",
+                  "value": "right"
+                },
+                {
+                  "value": "left"
+                }
+              ],
+              "baseline": [
+                {
+                  "test": "scale('angular', datum.Measurement) > 0",
+                  "value": "top"
+                },
+                {
+                  "test": "scale('angular', datum.Measurement) == 0",
+                  "value": "middle"
+                },
+                {
+                  "value": "bottom"
+                }
+              ],
+              "fill": { "value": "black" },
+              "fontWeight": { "value": "bold" }
+            }
+          }
+        },
+        {
+          "type": "line",
+          "name": "outer-line",
+          "from": { "data": "radial-grid" },
+          "encode": {
+            "enter": {
+              "interpolate": { "value": "linear-closed" },
+              "x": { "field": "x2" },
+              "y": { "field": "y2" },
+              "stroke": { "value": "lightgray" },
+              "strokeWidth": { "value": 1 }
+            }
+          }
+        },
+        {
+          "type": "group",
+          "name": "annotation-layer",
+          "zindex": 2,
+          "marks": [
+            {
+              "type": "text",
+              "encode": {
+                "enter": {
+                  "x": { "value": -35 },
+                  "y": { "value": 150 },
+                  "text": { "value": "NO2 AQI for all Indonesian province is 5" },
+                  "fill": { "value": "blue" },
+                  "fontWeight": { "value": "bold" }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    };
 
-    vegaEmbed("#vis", vegaLiteSpec)
+    // Embed the first visualization
+    vegaEmbed("#vis1", vegaLiteSpec1)
+      .then((result) => console.log(result))
+      .catch(console.error);
+
+    // Embed the second visualization
+    vegaEmbed("#vis2", vegaLiteSpec2)
       .then((result) => console.log(result))
       .catch(console.error);
   </script>
