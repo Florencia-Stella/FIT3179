@@ -1,4 +1,9 @@
 Province,"Measurement","Value"
+Average,"AQI",4.24
+Average,"CO",5
+Average,"Ozone",4.72
+Average,"NO2",5
+Average,"PM2.5",4.28
 Aceh,"AQI",4
 Aceh,"CO",5
 Aceh,"Ozone",5
