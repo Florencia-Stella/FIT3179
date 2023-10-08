@@ -1,146 +1,146 @@
 Province,"Measurement","Value"
 Aceh,"AQI",4
-Aceh,"CO AQI",5
-Aceh,"Ozone AQI",5
-Aceh,"NO2 AQI",5
-Aceh,"PM2.5 AQI",4
+Aceh,"CO",5
+Aceh,"Ozone",5
+Aceh,"NO2",5
+Aceh,"PM2.5",4
 Bali,"AQI",5
-Bali,"CO AQI",5
-Bali,"Ozone AQI",5
-Bali,"NO2 AQI",5
-Bali,"PM2.5 AQI",5
+Bali,"CO",5
+Bali,"Ozone",5
+Bali,"NO2",5
+Bali,"PM2.5",5
 Banten,"AQI",1
-Banten,"CO AQI",5
-Banten,"Ozone AQI",1
-Banten,"NO2 AQI",5
-Banten,"PM2.5 AQI",2
+Banten,"CO",5
+Banten,"Ozone",1
+Banten,"NO2",5
+Banten,"PM2.5",2
 Bengkulu,"AQI",4
-Bengkulu,"CO AQI",5
-Bengkulu,"Ozone AQI",5
-Bengkulu,"NO2 AQI",5
-Bengkulu,"PM2.5 AQI",4
+Bengkulu,"CO",5
+Bengkulu,"Ozone",5
+Bengkulu,"NO2",5
+Bengkulu,"PM2.5",4
 Di Yogyakarta,"AQI",4
-Di Yogyakarta,"CO AQI",5
-Di Yogyakarta,"Ozone AQI",5
-Di Yogyakarta,"NO2 AQI",5
-Di Yogyakarta,"PM2.5 AQI",4
+Di Yogyakarta,"CO",5
+Di Yogyakarta,"Ozone",5
+Di Yogyakarta,"NO2",5
+Di Yogyakarta,"PM2.5",4
 Gorontalo,"AQI",5
-Gorontalo,"CO AQI",5
-Gorontalo,"Ozone AQI",5
-Gorontalo,"NO2 AQI",5
-Gorontalo,"PM2.5 AQI",5
+Gorontalo,"CO",5
+Gorontalo,"Ozone",5
+Gorontalo,"NO2",5
+Gorontalo,"PM2.5",5
 Jambi,"AQI",4
-Jambi,"CO AQI",5
-Jambi,"Ozone AQI",5
-Jambi,"NO2 AQI",5
-Jambi,"PM2.5 AQI",4
+Jambi,"CO",5
+Jambi,"Ozone",5
+Jambi,"NO2",5
+Jambi,"PM2.5",4
 Jawa Barat,"AQI",3
-Jawa Barat,"CO AQI",5
-Jawa Barat,"Ozone AQI",4
-Jawa Barat,"NO2 AQI",5
-Jawa Barat,"PM2.5 AQI",3
+Jawa Barat,"CO",5
+Jawa Barat,"Ozone",4
+Jawa Barat,"NO2",5
+Jawa Barat,"PM2.5",3
 Jawa Tengah,"AQI",3
-Jawa Tengah,"CO AQI",5
-Jawa Tengah,"Ozone AQI",4
-Jawa Tengah,"NO2 AQI",5
-Jawa Tengah,"PM2.5 AQI",3
+Jawa Tengah,"CO",5
+Jawa Tengah,"Ozone",4
+Jawa Tengah,"NO2",5
+Jawa Tengah,"PM2.5",3
 Jawa Timur,"AQI",3
-Jawa Timur,"CO AQI",5
-Jawa Timur,"Ozone AQI",4
-Jawa Timur,"NO2 AQI",5
-Jawa Timur,"PM2.5 AQI",3
+Jawa Timur,"CO",5
+Jawa Timur,"Ozone",4
+Jawa Timur,"NO2",5
+Jawa Timur,"PM2.5",3
 Kalimantan Barat,"AQI",4
-Kalimantan Barat,"CO AQI",5
-Kalimantan Barat,"Ozone AQI",5
-Kalimantan Barat,"NO2 AQI",5
-Kalimantan Barat,"PM2.5 AQI",4
+Kalimantan Barat,"CO",5
+Kalimantan Barat,"Ozone",5
+Kalimantan Barat,"NO2",5
+Kalimantan Barat,"PM2.5",4
 Kalimantan Selatan,"AQI",4
-Kalimantan Selatan,"CO AQI",5
-Kalimantan Selatan,"Ozone AQI",5
-Kalimantan Selatan,"NO2 AQI",5
-Kalimantan Selatan,"PM2.5 AQI",4
+Kalimantan Selatan,"CO",5
+Kalimantan Selatan,"Ozone",5
+Kalimantan Selatan,"NO2",5
+Kalimantan Selatan,"PM2.5",4
 Kalimantan Timur,"AQI",4
-Kalimantan Timur,"CO AQI",5
-Kalimantan Timur,"Ozone AQI",5
-Kalimantan Timur,"NO2 AQI",5
-Kalimantan Timur,"PM2.5 AQI",4
+Kalimantan Timur,"CO",5
+Kalimantan Timur,"Ozone",5
+Kalimantan Timur,"NO2",5
+Kalimantan Timur,"PM2.5",4
 Kalimantan Utara,"AQI",5
-Kalimantan Utara,"CO AQI",5
-Kalimantan Utara,"Ozone AQI",5
-Kalimantan Utara,"NO2 AQI",5
-Kalimantan Utara,"PM2.5 AQI",5
+Kalimantan Utara,"CO",5
+Kalimantan Utara,"Ozone",5
+Kalimantan Utara,"NO2",5
+Kalimantan Utara,"PM2.5",5
 Lampung,"AQI",4
-Lampung,"CO AQI",5
-Lampung,"Ozone AQI",5
-Lampung,"NO2 AQI",5
-Lampung,"PM2.5 AQI",4
+Lampung,"CO",5
+Lampung,"Ozone",5
+Lampung,"NO2",5
+Lampung,"PM2.5",4
 Maluku,"AQI",5
-Maluku,"CO AQI",5
-Maluku,"Ozone AQI",5
-Maluku,"NO2 AQI",5
-Maluku,"PM2.5 AQI",5
+Maluku,"CO",5
+Maluku,"Ozone",5
+Maluku,"NO2",5
+Maluku,"PM2.5",5
 Nusa Tenggara Barat,"AQI",5
-Nusa Tenggara Barat,"CO AQI",5
-Nusa Tenggara Barat,"Ozone AQI",5
-Nusa Tenggara Barat,"NO2 AQI",5
-Nusa Tenggara Barat,"PM2.5 AQI",5
+Nusa Tenggara Barat,"CO",5
+Nusa Tenggara Barat,"Ozone",5
+Nusa Tenggara Barat,"NO2",5
+Nusa Tenggara Barat,"PM2.5",5
 Nusa Tenggara Timur,"AQI",5
-Nusa Tenggara Timur,"CO AQI",5
-Nusa Tenggara Timur,"Ozone AQI",5
-Nusa Tenggara Timur,"NO2 AQI",5
-Nusa Tenggara Timur,"PM2.5 AQI",5
+Nusa Tenggara Timur,"CO",5
+Nusa Tenggara Timur,"Ozone",5
+Nusa Tenggara Timur,"NO2",5
+Nusa Tenggara Timur,"PM2.5",5
 Papua,"AQI",5
-Papua,"CO AQI",5
-Papua,"Ozone AQI",5
-Papua,"NO2 AQI",5
-Papua,"PM2.5 AQI",5
+Papua,"CO",5
+Papua,"Ozone",5
+Papua,"NO2",5
+Papua,"PM2.5",5
 Papua Barat,"AQI",5
-Papua Barat,"CO AQI",5
-Papua Barat,"Ozone AQI",5
-Papua Barat,"NO2 AQI",5
-Papua Barat,"PM2.5 AQI",5
+Papua Barat,"CO",5
+Papua Barat,"Ozone",5
+Papua Barat,"NO2",5
+Papua Barat,"PM2.5",5
 Riau,"AQI",5
-Riau,"CO AQI",5
-Riau,"Ozone AQI",5
-Riau,"NO2 AQI",5
-Riau,"PM2.5 AQI",5
+Riau,"CO",5
+Riau,"Ozone",5
+Riau,"NO2",5
+Riau,"PM2.5",5
 Sulawesi Barat,"AQI",5
-Sulawesi Barat,"CO AQI",5
-Sulawesi Barat,"Ozone AQI",5
-Sulawesi Barat,"NO2 AQI",5
-Sulawesi Barat,"PM2.5 AQI",5
+Sulawesi Barat,"CO",5
+Sulawesi Barat,"Ozone",5
+Sulawesi Barat,"NO2",5
+Sulawesi Barat,"PM2.5",5
 Sulawesi Selatan,"AQI",5
-Sulawesi Selatan,"CO AQI",5
-Sulawesi Selatan,"Ozone AQI",5
-Sulawesi Selatan,"NO2 AQI",5
-Sulawesi Selatan,"PM2.5 AQI",5
+Sulawesi Selatan,"CO",5
+Sulawesi Selatan,"Ozone",5
+Sulawesi Selatan,"NO2",5
+Sulawesi Selatan,"PM2.5",5
 Sulawesi Tengah,"AQI",5
-Sulawesi Tengah,"CO AQI",5
-Sulawesi Tengah,"Ozone AQI",5
-Sulawesi Tengah,"NO2 AQI",5
-Sulawesi Tengah,"PM2.5 AQI",5
+Sulawesi Tengah,"CO",5
+Sulawesi Tengah,"Ozone",5
+Sulawesi Tengah,"NO2",5
+Sulawesi Tengah,"PM2.5",5
 Sulawesi Tenggara,"AQI",4
-Sulawesi Tenggara,"CO AQI",5
-Sulawesi Tenggara,"Ozone AQI",5
-Sulawesi Tenggara,"NO2 AQI",5
-Sulawesi Tenggara,"PM2.5 AQI",4
+Sulawesi Tenggara,"CO",5
+Sulawesi Tenggara,"Ozone",5
+Sulawesi Tenggara,"NO2",5
+Sulawesi Tenggara,"PM2.5",4
 Sulawesi Utara,"AQI",5
-Sulawesi Utara,"CO AQI",5
-Sulawesi Utara,"Ozone AQI",5
-Sulawesi Utara,"NO2 AQI",5
-Sulawesi Utara,"PM2.5 AQI",5
+Sulawesi Utara,"CO",5
+Sulawesi Utara,"Ozone",5
+Sulawesi Utara,"NO2",5
+Sulawesi Utara,"PM2.5",5
 Sumatera Barat,"AQI",4
-Sumatera Barat,"CO AQI",5
-Sumatera Barat,"Ozone AQI",5
-Sumatera Barat,"NO2 AQI",5
-Sumatera Barat,"PM2.5 AQI",4
+Sumatera Barat,"CO",5
+Sumatera Barat,"Ozone",5
+Sumatera Barat,"NO2",5
+Sumatera Barat,"PM2.5",4
 Sumatera Selatan,"AQI",4
-Sumatera Selatan,"CO AQI",5
-Sumatera Selatan,"Ozone AQI",5
-Sumatera Selatan,"NO2 AQI",5
-Sumatera Selatan,"PM2.5 AQI",4
+Sumatera Selatan,"CO",5
+Sumatera Selatan,"Ozone",5
+Sumatera Selatan,"NO2",5
+Sumatera Selatan,"PM2.5",4
 Sumatera Utara,"AQI",4
-Sumatera Utara,"CO AQI",5
-Sumatera Utara,"Ozone AQI",4
-Sumatera Utara,"NO2 AQI",5
-Sumatera Utara,"PM2.5 AQI",4
+Sumatera Utara,"CO",5
+Sumatera Utara,"Ozone",4
+Sumatera Utara,"NO2",5
+Sumatera Utara,"PM2.5",4
