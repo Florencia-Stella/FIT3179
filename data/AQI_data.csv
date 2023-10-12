@@ -1,1 +1,166 @@
-
+"Province","Index","Value"
+"Aceh","AQI",4.5
+"Aceh","CO",5
+"Aceh","Ozone",5
+"Aceh","NO2",5
+"Aceh","PM2.5",4.5
+"Bali","AQI",4.85714285714286
+"Bali","CO",5
+"Bali","Ozone",5
+"Bali","NO2",5
+"Bali","PM2.5",4.85714285714286
+"Bangka Belitung","AQI",5
+"Bangka Belitung","CO",5
+"Bangka Belitung","Ozone",5
+"Bangka Belitung","NO2",5
+"Bangka Belitung","PM2.5",5
+"Banten","AQI",1.375
+"Banten","CO",5
+"Banten","Ozone",2.75
+"Banten","NO2",4.75
+"Banten","PM2.5",1.875
+"Bengkulu","AQI",3.33333333333333
+"Bengkulu","CO",5
+"Bengkulu","Ozone",5
+"Bengkulu","NO2",5
+"Bengkulu","PM2.5",3.33333333333333
+"Central Java","AQI",3.56989247311828
+"Central Java","CO",5
+"Central Java","Ozone",4.70967741935484
+"Central Java","NO2",5
+"Central Java","PM2.5",3.58064516129032
+"Central Kalimantan","AQI",4.66666666666667
+"Central Kalimantan","CO",5
+"Central Kalimantan","Ozone",5
+"Central Kalimantan","NO2",5
+"Central Kalimantan","PM2.5",4.66666666666667
+"Central Sulawesi","AQI",5
+"Central Sulawesi","CO",5
+"Central Sulawesi","Ozone",5
+"Central Sulawesi","NO2",5
+"Central Sulawesi","PM2.5",5
+"East Java","AQI",3.34567901234568
+"East Java","CO",5
+"East Java","Ozone",4.61728395061728
+"East Java","NO2",5
+"East Java","PM2.5",3.34567901234568
+"East Kalimantan","AQI",4
+"East Kalimantan","CO",5
+"East Kalimantan","Ozone",5
+"East Kalimantan","NO2",5
+"East Kalimantan","PM2.5",4
+"East Nusa Tenggara","AQI",4.625
+"East Nusa Tenggara","CO",5
+"East Nusa Tenggara","Ozone",5
+"East Nusa Tenggara","NO2",5
+"East Nusa Tenggara","PM2.5",4.625
+"Gorontalo","AQI",5
+"Gorontalo","CO",5
+"Gorontalo","Ozone",5
+"Gorontalo","NO2",5
+"Gorontalo","PM2.5",5
+"Jakarta","AQI",2
+"Jakarta","CO",5
+"Jakarta","Ozone",2
+"Jakarta","NO2",5
+"Jakarta","PM2.5",2
+"Jambi","AQI",4.25
+"Jambi","CO",5
+"Jambi","Ozone",5
+"Jambi","NO2",5
+"Jambi","PM2.5",4.25
+"Lampung","AQI",4
+"Lampung","CO",5
+"Lampung","Ozone",5
+"Lampung","NO2",5
+"Lampung","PM2.5",4
+"Maluku","AQI",5
+"Maluku","CO",5
+"Maluku","Ozone",5
+"Maluku","NO2",5
+"Maluku","PM2.5",5
+"North Kalimantan","AQI",5
+"North Kalimantan","CO",5
+"North Kalimantan","Ozone",5
+"North Kalimantan","NO2",5
+"North Kalimantan","PM2.5",5
+"North Maluku","AQI",5
+"North Maluku","CO",5
+"North Maluku","Ozone",5
+"North Maluku","NO2",5
+"North Maluku","PM2.5",5
+"North Sulawesi","AQI",5
+"North Sulawesi","CO",5
+"North Sulawesi","Ozone",5
+"North Sulawesi","NO2",5
+"North Sulawesi","PM2.5",5
+"North Sumatra","AQI",4
+"North Sumatra","CO",5
+"North Sumatra","Ozone",4.86666666666667
+"North Sumatra","NO2",5
+"North Sumatra","PM2.5",4
+"Papua","AQI",5
+"Papua","CO",5
+"Papua","Ozone",5
+"Papua","NO2",5
+"Papua","PM2.5",5
+"Riau","AQI",4.33333333333333
+"Riau","CO",5
+"Riau","Ozone",5
+"Riau","NO2",5
+"Riau","PM2.5",4.33333333333333
+"South Kalimantan","AQI",4.6
+"South Kalimantan","CO",5
+"South Kalimantan","Ozone",5
+"South Kalimantan","NO2",5
+"South Kalimantan","PM2.5",4.6
+"South Sulawesi","AQI",4.66666666666667
+"South Sulawesi","CO",5
+"South Sulawesi","Ozone",5
+"South Sulawesi","NO2",5
+"South Sulawesi","PM2.5",4.66666666666667
+"South Sumatra","AQI",4
+"South Sumatra","CO",5
+"South Sumatra","Ozone",5
+"South Sumatra","NO2",5
+"South Sumatra","PM2.5",4
+"Southeast Sulawesi","AQI",4.5
+"Southeast Sulawesi","CO",5
+"Southeast Sulawesi","Ozone",5
+"Southeast Sulawesi","NO2",5
+"Southeast Sulawesi","PM2.5",4.5
+"West Java","AQI",3.22972972972973
+"West Java","CO",5
+"West Java","Ozone",4.16216216216216
+"West Java","NO2",4.98648648648649
+"West Java","PM2.5",3.31081081081081
+"West Kalimantan","AQI",4.66666666666667
+"West Kalimantan","CO",5
+"West Kalimantan","Ozone",5
+"West Kalimantan","NO2",5
+"West Kalimantan","PM2.5",4.66666666666667
+"West Nusa Tenggara","AQI",4.66666666666667
+"West Nusa Tenggara","CO",5
+"West Nusa Tenggara","Ozone",5
+"West Nusa Tenggara","NO2",5
+"West Nusa Tenggara","PM2.5",4.66666666666667
+"West Papua","AQI",5
+"West Papua","CO",5
+"West Papua","Ozone",5
+"West Papua","NO2",5
+"West Papua","PM2.5",5
+"West Sulawesi","AQI",5
+"West Sulawesi","CO",5
+"West Sulawesi","Ozone",5
+"West Sulawesi","NO2",5
+"West Sulawesi","PM2.5",5
+"West Sumatra","AQI",4.25
+"West Sumatra","CO",5
+"West Sumatra","Ozone",5
+"West Sumatra","NO2",5
+"West Sumatra","PM2.5",4.25
+"Yogyakarta","AQI",3.6
+"Yogyakarta","CO",5
+"Yogyakarta","Ozone",5
+"Yogyakarta","NO2",5
+"Yogyakarta","PM2.5",3.6
