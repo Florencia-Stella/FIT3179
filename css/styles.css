@@ -288,4 +288,14 @@ html {
     font-weight: bold;
   }
 
+  c{
+    font-size: 12px;
+    font-family: Georgia, serif;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px; 
+    color: black;
+  }
+
 
