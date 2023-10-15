@@ -1,313 +1,258 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <title>Population-Weighted PM 2.5 in Indonesia</title>
-  <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
-  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
-  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+  <title>DataVis II</title>
+  <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
+  <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+
+  <!-- Import pure.css -->
+  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css"
+    integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><legend></legend>
+
+  <!-- Google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+  <!-- CSS file -->
+  <link rel="stylesheet" type="text/css" href="css/styles.css" media="all">
+
 </head>
-<body>
-  <h1>Air Quality in Indonesia</h1>
-  
-  <!-- First Visualization -->
-  <div id="vis1"></div>
-  
-  <!-- Second Visualization -->
-  <div id="vis2"></div>
 
-  <script>
-    // First Visualization Specification
-    const vegaLiteSpec1 = {
-      "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-      "title": "Distribution of Population-Weighted PM 2.5 in Indonesia in 2021",
-      "width": 1000,
-      "height": 450,
-      "projection": {
-        "type": "equalEarth"
-      },
-      "data": {
-        "url": "https://raw.githubusercontent.com/Florencia-Stella/FIT3179/main/ne_10m_admin_1_states_provinces.json",
-        "format": {
-          "type": "topojson",
-          "feature": "ne_10m_admin_1_states_provinces"
-        }
-      },
-      "transform": [
-        {
-          "lookup": "properties.name_en",
-          "from": {
-            "data": {
-              "url": "https://raw.githubusercontent.com/Florencia-Stella/FIT3179/main/aqli_country_data_Indonesia_who_2021.csv",
-              "format": {
-                "type": "csv"
-              }
-            },
-            "key": "Province",
-            "fields": ["PM"]
-          }
-        }
-      ],
-      "mark": {
-        "type": "geoshape"
-      },
-      "encoding": {
-        "color": {
-          "field": "PM",
-          "type": "quantitative",
-          "scale": {
-            "type": "threshold",
-            "domain": [12.5, 25, 50],
-            "range": ["#fdbe85", "#fd8d3c", "#e6550d", "#a63603"]
-          },
-          "title": "PM 2.5 (µg/m³)"
-        },
-        "tooltip": [
-          {
-            "field": "properties.name_en",
-            "type": "nominal",
-            "title": "Province"
-          },
-          {
-            "field": "PM",
-            "type": "quantitative",
-            "title": "PM 2.5 (µg/m³)"
-          }
-        ],
-        "stroke": {
-          "value": "gray"
-        }
-      }
-    };
+<body >
+  <!-- page -->
+  <div class="page" style="background-image: url('https://miro.medium.com/v2/format:webp/1*eQ451dpT7K1FAGgWm7vy_A.png');" >
+    <!-- vis title -->
+    <div class="title-vis">
+      <div class="title">
+        <h1>Air Quality Matters: <r>Indonesia's</r> Path to Cleaner Environments</h1>
+      </div>
+    </div>
+    <!-- end vis title -->
 
-    // Second Visualization Specification
-    const vegaLiteSpec2 = {
-      "$schema": "https://vega.github.io/schema/vega/v5.json",
-      "width": 400,
-      "height": 400,
-      "title": {"text": "Radar chart for AQI data by Province in 2021", "align": "right"},
-      "padding": 70,
-      "autosize": { "type": "none", "contains": "padding" },
-      "signals": [
-        { "name": "radius", "update": "width / 2" },
-        {
-          "name": "Province",
-          "value": "Average",
-          "bind": {
-            "input": "select",
-            "options": ["Average", "Aceh", "Bali", "Banten", "Bengkulu", "Di Yogyakarta", "Gorontalo", "Jambi", "Jawa Barat", "Jawa Tengah", "Jawa Timur", "Kalimantan Barat", "Kalimantan Selatan", "Kalimantan Timur", "Kalimantan Utara", "Lampung", "Maluku", "Nusa Tenggara Barat", "Nusa Tenggara Timur", "Papua", "Papua Barat", "Riau", "Sulawesi Barat", "Sulawesi Selatan", "Sulawesi Tengah", "Sulawesi Tenggara", "Sulawesi Utara", "Sumatera Barat", "Sumatera Selatan", "Sumatera Utara"]
-          }
-        }
-      ],
-      "data": [
-        {
-          "url": "https://raw.githubusercontent.com/Florencia-Stella/FIT3179/main/reformatted_data.csv",
-          "name": "data",
-          "format": { "type": "csv" },
-          "transform": [
-            {
-              "type": "filter",
-              "expr": "Province === null || datum.Province === Province || datum.Province === 'Average'"
-            }
-          ]
-        }
-      ],
-      "scales": [
-        {
-          "name": "angular",
-          "type": "point",
-          "range": { "signal": "[-PI, PI]" },
-          "padding": 0.5,
-          "domain": { "data": "data", "field": "Measurement" }
-        },
-        {
-          "name": "radial",
-          "type": "linear",
-          "range": { "signal": "[0, radius]" },
-          "zero": true,
-          "nice": false,
-          "domain": { "data": "data", "field": "Value" },
-          "domainMin": 0
-        },
-        {
-          "name": "color",
-          "type": "ordinal",
-          "domain": { "data": "data", "field": "Province" },
-          "range": { "scheme": "category10" }
-        }
-      ],
-      "encode": {
-        "enter": {
-          "x": { "signal": "radius" },
-          "y": { "signal": "radius" }
-        }
-      },
-      "marks": [
-        {
-          "type": "group",
-          "name": "categories",
-          "zindex": 1,
-          "encode": {
-            "enter": {
-              "x": { "signal": "1" }, 
-              "y": { "signal": "1" }, 
-              "width": { "value": 400 },
-              "height": { "value": 400 }
-            }
-          },
-          "from": {
-            "facet": { "data": "data", "name": "facet", "groupby": ["Province"] }
-          },
-          "marks": [
-            {
-              "type": "line",
-              "name": "category-line",
-              "from": { "data": "facet" },
-              "encode": {
-                "enter": {
-                  "interpolate": { "value": "linear-closed" },
-                  "x": {"signal": "scale('radial', datum.Value) * cos(scale('angular', datum.Measurement))"},
-                  "y": {"signal": "scale('radial', datum.Value) * sin(scale('angular', datum.Measurement))"},
-                  "stroke": { "scale": "color", "field": "Province" },
-                  "strokeWidth": { "value": 1 },
-                  "fill": { "scale": "color", "field": "Province" },
-                  "fillOpacity": { "value": 0.1 }
-                }
-              }
-            },
-            {
-              "type": "area",
-              "name": "category-area",
-              "from": { "data": "facet" },
-              "encode": {
-                "enter": {
-                  "interpolate": { "value": "linear-closed" },
-                  "x": { "scale": "radial", "field": "Value" },
-                  "y": { "scale": "angular", "field": "Measurement" },
-                  "fill": { "scale": "color", "field": "Province" },
-                  "fillOpacity": { "value": 0.3 }
-                }
-              }
-            },
-            {
-              "type": "symbol",
-              "from": { "data": "facet" },
-              "name": "data-points",
-              "encode": {
-                "enter": {
-                  "x": {"signal": "scale('radial', datum.Value) * cos(scale('angular', datum.Measurement))"},
-                  "y": {"signal": "scale('radial', datum.Value) * sin(scale('angular', datum.Measurement))"},
-                  "fill": { "scale": "color", "field": "Province" },
-                  "size": { "value": 20 },
-                  "stroke": { "value": "black" },
-                  "strokeWidth": { "value": 1 }
-                },
-                "update": {
-                  "tooltip": {
-                    "signal": "{'Province': datum.Province, 'Measurement': datum.Measurement, 'Value': datum.Value}"
-                  }
-                }
-              }
-            }
-          ]
-        },
-        {
-          "type": "rule",
-          "name": "radial-grid",
-          "from": { "data": "data" },
-          "zindex": 0,
-          "encode": {
-            "enter": {
-              "x": { "value": 0 },
-              "y": { "value": 0 },
-              "x2": { "signal": "radius * cos(scale('angular', datum.Measurement))" },
-              "y2": { "signal": "radius * sin(scale('angular', datum.Measurement))" },
-              "stroke": { "value": "lightgray" },
-              "strokeWidth": { "value": 1 }
-            }
-          }
-        },
-        {
-          "type": "text",
-          "name": "key-label",
-          "from": { "data": "data" },
-          "zindex": 1,
-          "encode": {
-            "enter": {
-              "x": { "signal": "(radius + 5) * cos(scale('angular', datum.Measurement))" },
-              "y": { "signal": "(radius + 5) * sin(scale('angular', datum.Measurement))" },
-              "text": { "field": "Measurement" },
-              "align": [
-                {
-                  "test": "abs(scale('angular', datum.Measurement)) > PI / 2",
-                  "value": "right"
-                },
-                {
-                  "value": "left"
-                }
-              ],
-              "baseline": [
-                {
-                  "test": "scale('angular', datum.Measurement) > 0",
-                  "value": "top"
-                },
-                {
-                  "test": "scale('angular', datum.Measurement) == 0",
-                  "value": "middle"
-                },
-                {
-                  "value": "bottom"
-                }
-              ],
-              "fill": { "value": "black" },
-              "fontWeight": { "value": "bold" }
-            }
-          }
-        },
-        {
-          "type": "line",
-          "name": "outer-line",
-          "from": { "data": "radial-grid" },
-          "encode": {
-            "enter": {
-              "interpolate": { "value": "linear-closed" },
-              "x": { "field": "x2" },
-              "y": { "field": "y2" },
-              "stroke": { "value": "lightgray" },
-              "strokeWidth": { "value": 1 }
-            }
-          }
-        },
-        {
-          "type": "group",
-          "name": "annotation-layer",
-          "zindex": 2,
-          "marks": [
-            {
-              "type": "text",
-              "encode": {
-                "enter": {
-                  "x": { "value": -35 },
-                  "y": { "value": 150 },
-                  "text": { "value": "NO2 AQI for all Indonesian province is 5" },
-                  "fill": { "value": "blue" },
-                  "fontWeight": { "value": "bold" }
-                }
-              }
-            }
-          ]
-        }
-      ]
-    };
+    <!-- title section 1 -->
+    <div class="title-sections">
+      <div class="title-1">
+        <h2>Air Quality Index</h2>
+      </div>
+    </div>
+    <!-- end title section 1 -->
 
-    // Embed the first visualization
-    vegaEmbed("#vis1", vegaLiteSpec1)
-      .then((result) => console.log(result))
-      .catch(console.error);
+    <!-- section 1 -->
+    <div class="sections">
+      <div class="section-1">
+        <div class="radar-title">
+          <h3>Breakdown by Province</h3>
+        </div>
 
-    // Embed the second visualization
-    vegaEmbed("#vis2", vegaLiteSpec2)
-      .then((result) => console.log(result))
-      .catch(console.error);
+        <div id="radar_chart" class="radar-chart"></div>
+
+        <div class="radar-text">
+          <p><strong>Air Quality Index (AQI)</strong>  serves as a universal yardstick for quantifying and conveying 
+            the extent of <strong>air pollution</strong> within a given geographical area. In the diverse landscape of Indonesia, 
+            AQI measurements exhibit notable disparities among its various provinces. Metropolises such as <r>Jakarta 
+              and the Java region</r> contend with <strong>elevated AQI values</strong> due to the amalgamation of industrial emissions 
+            and the congestion of vehicular traffic.</p>
+            
+        </div>
+
+        <div class="scale-pic">
+          <img src="pic/scale_world3.png" style="width: 480px; height: auto;">
+        </div>
+
+        <div class="scale-text">
+          <p>In this visualization, it is imperative to recognize that a lower AQI Category signifies a 
+            disconcerting state of air quality, indicating higher levels of pollution. Conversely, a healthier 
+              atmosphere is represented by a higher AQI Category, featuring lower pollution levels.</p>
+        </div>
+
+      </div>
+    </div>
+    <!-- end section 1 -->
+
+    <!-- title section 2 -->
+    <div class="title-sections">
+      <div class="title-2">
+        <h2>Air Pollution</h2>
+      </div>
+    </div>
+    <!-- end title section 2 -->
+
+    <!-- section 2 -->
+    <div class="sections">
+
+      <!-- section 2.1 -->
+
+      <div class="section-2-1">
+        <div class="map-title">
+          <h3>Distribution of Population-Weighted PM 2.5</h3>
+        </div>
+
+        <div class="map-text-1">
+          <p>A common parameter used to assess air quality is the concentration of <strong>particulate matter</strong>. Among these, <strong>PM2.5</strong>, 
+            referring to particulate matter with a diameter of 2.5 micrometers or less, stands out as a fine particle with 
+            known health hazards. These fine particles can penetrate deep into the respiratory system, <strong>posing significant 
+              risks to human health</strong>.</p>
+        </div>
+
+        <div class="world-pic">
+          <img src="pic/small_world.png" style="width: 200px; height: auto;">
+        </div>
+
+        <div class="map-text-2">
+          <p>Remarkably, despite its modest size, <r>Jakarta, Indonesia's capital city</r>, records the <strong>highest levels of PM2.5 
+            concentration</strong>. This is followed closely by the province of <r>North Sumatra</r>, emphasizing the critical need for 
+            attention to air quality management in these regions.</p>
+
+        </div>
+
+        <div id="map" class="map-container"></div>
+      </div>
+
+      <!-- end section 2.1 -->
+
+      <!-- section 2.2 -->
+      <div class="section-2-2">
+        <div class="sankey-title">
+          <h3>Sector-Wise Greenhouse Gas Emissions</h3>
+        </div>
+
+        <div id="sankey" class="sankey"></div>
+
+        <div class="sankey-text">
+          <p><strong>Greenhouse gases (GHGs) wield a significant influence on climate change</strong>, posing environmental challenges that 
+            <r>Indonesia</r> grapples with. Notably, the country's key sectors play a substantial role in these emissions.</p>
+
+            <br>
+
+          <p><strong>Fuel exploitation</strong>, centered around fossil fuel extraction and usage, stands out as a <strong>major source of methane (CH4)
+            emissions</strong> , a potent GHG. Curbing emissions from this sector is pivotal for ensuring environmental sustainability.</p>
+
+            <br>
+
+          <p><r>Indonesia's</r> <strong>power industry</strong> significantly contributes to <strong>arbon dioxide (CO2) emissions</strong>, emphasizing the urgent need 
+            for a transition to cleaner, more sustainable energy sources.</p>
+
+            <br>
+
+          <p>In the <strong>agricultural sector</strong>, <strong>nitrous oxide (N2O) emissions</strong> underscore the importance of reducing emissions from practices 
+            like enteric fermentation and rice cultivation. These efforts are crucial for mitigating <r>Indonesia's</r> carbon footprint and steering the nation towards a greener, more sustainable future.</p>
+
+        </div>
+      </div>
+      <!-- end section 2.2 -->
+
+    </div>  
+    <!-- end section 2 -->
+
+    <!-- title section 3 -->
+    <div class="title-sections">
+      <div class="title-3">
+        <h2>Impact</h2>
+      </div>
+    </div>
+    <!-- end title section 3 -->
+
+    <!-- section 3 -->
+    <div class="sections">
+
+      <!-- section 3.1 -->
+      <div class="section-3-1">
+        <div class="calendar_map-title">
+          <h3>Daily Average Temperature</h3>
+        </div>
+
+        <div id="calendar_map" class="calendar_map"></div>
+
+        <div class="calendar_map-text-1">
+          <p>The interplay between air quality and temperature trends in <r>Indonesia</r> from <strong>2018 to 2020</strong> is a critical environmental consideration. Deteriorating air quality, driven by <strong>increased 
+            pollutant levels and greenhouse gases</strong>, has a direct impact on <strong>rising temperatures</strong>. During this period, Indonesia witnessed a noticeable uptick in temperatures, closely correlated 
+            with the decline in air quality.</p>
+        </div>
+
+        <div class="calendar_map-text-2">
+          <p>Heightened pollutant levels, predominantly resulting from industrial activities and vehicular emissions, <strong>intensified the greenhouse effect</strong>, trapping heat within the Earth's atmosphere 
+            and <strong>exacerbating global warming</strong>. Recognizing this connection underscores the urgent need to address air quality and greenhouse gas emissions, advocating for sustainable practices and 
+            policies to ensure a more climate-resilient future for <r>Indonesia</r>.</p>
+        </div>
+
+      </div>
+      <!-- end section 3.1 -->
+
+      <!-- section 3.2 -->
+      <div class="section-3-2">
+        <div class="bar_chart-title">
+          <h3>Top 5 Cause of Deaths</h3>
+        </div>
+
+        <div id="bar_chart" class="bar_chart"></div>
+
+        <div class="bar_chart-text">
+          <p><strong>Air pollution</strong> has emerged as an alarming and persistent threat, securing its place among the <strong>top three causes of death in</strong> <r>Indonesia</r>. Amidst a diverse landscape of health challenges, 
+            from chronic diseases to accidents, air pollution steadfastly maintains its position. This unsettling reality underscores the immediate and long-term health consequences of exposure 
+            to polluted air. As one of the leading factors contributing to mortality, it not only claims lives but also calls for proactive measures and comprehensive policies to mitigate its impact.</p>
+        </div>
+
+        <div class="area_chart-title">
+          <h3>Trends in Air Pollution-Related Deaths</h3>
+        </div>
+
+        <div id="area_chart" class="area_chart"></div>
+
+        <div class="area_chart-text">
+          <p>In examining the landscape of air pollution-related deaths, it becomes evident that <strong>household pollution</strong> stands as the most pressing concern, consistently ranking as the <strong>leading cause of 
+            fatalities</strong>. Despite the myriad factors contributing to air pollution-related mortality, household pollution's steadfast prominence cannot be overlooked. This alarming trend reflects the 
+            significant health risks posed by indoor air quality and household cooking practices. </p>
+        </div>
+
+
+
+      </div>
+
+
+    </div>
+    <!-- end section 3 -->
+
+
+  </div>
+  <script type="text/javascript">
+    var spec2 = "Idioms/radar_chart.json";
+    vegaEmbed('#radar_chart', spec2, { "actions": false }).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+
+    var spec2 = "Idioms/map.json";
+    vegaEmbed('#map', spec2, { "actions": false }).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+
+    var spec3 = "Idioms/sankey.json";
+    vegaEmbed('#sankey', spec3, { "actions": false }).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+
+    var spec4 = "Idioms/calendar_map.json";
+    vegaEmbed('#calendar_map', spec4, { "actions": false }).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+
+    var spec5 = "Idioms/bar_chart.json";
+    vegaEmbed('#bar_chart', spec5, { "actions": false }).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+
+    var spec6 = "Idioms/area_chart.json";
+    vegaEmbed('#area_chart', spec6, { "actions": false }).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+
   </script>
+  
+  
 </body>
+
 </html>
