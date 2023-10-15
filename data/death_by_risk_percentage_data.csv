@@ -1,0 +1,813 @@
+"Year","Risk","Death","Percentage"
+1990,"Unsafe water source",80498.2124657826,5.14893761676867
+1990,"Unsafe sanitation",65209.3250050735,4.17100872426749
+1990,"No access to handwashing facility",28753.7254128337,1.83918541623901
+1990,"Household air pollution from solid fuels",93833.8958014072,6.00193297491156
+1990,"Non exclusive breastfeeding",18934.6848132396,1.2111264077819
+1990,"Discontinued breastfeeding",1065.86002595483,0.0681760080595783
+1990,"Child wasting",128518.029527554,8.22044734159398
+1990,"Child stunting",34311.8550793847,2.19470216676496
+1990,"Low birth weight for gestation",67887.9333156459,4.34234156096567
+1990,"Secondhand smoke",35990.9274679466,2.30210130915485
+1990,"Alcohol use",13112.0301231394,0.838689743103727
+1990,"Drug use",2330.9840339867,0.149097613587172
+1990,"Diet low in fruits",61637.1986184669,3.9425234528502
+1990,"Diet low in vegetables",43847.3033968448,2.80462165479575
+1990,"Unsafe sex",6284.61087718641,0.401984943032785
+1990,"Low physical activity",13725.8220486318,0.877949948234121
+1990,"High fasting plasma glucose",124514.785864321,7.96438635271833
+1990,"High total cholesterol",66458.5884047,4.25091583169951
+1990,"High body mass index",32186.5016853989,2.05875738359512
+1990,"High systolic blood pressure",186295.662951172,11.916099965796
+1990,"Smoking",106845.878791303,6.83422336538338
+1990,"Iron deficiency",6187.4355956579,0.395769283738551
+1990,"Vitamin A deficiency",40199.7389456443,2.5713111099143
+1990,"Low bone mineral density",6144.7898278545,0.393041516359464
+1990,"Air pollution",114298.531998292,7.31092024183277
+1990,"Outdoor air pollution",21079.11,1.34829108724793
+1990,"Diet high in sodium",91424.9849300706,5.84785089754692
+1990,"Diet low in whole grains",42476.03276616,2.71691055268768
+1990,"Diet low in nuts and seeds",29340.1564945567,1.87669552936866
+1991,"Unsafe water source",76929.00606391,NA
+1991,"Unsafe sanitation",62041.8472763243,NA
+1991,"No access to handwashing facility",27118.6085515561,NA
+1991,"Household air pollution from solid fuels",90568.215336952,NA
+1991,"Non exclusive breastfeeding",17529.9957025921,NA
+1991,"Discontinued breastfeeding",928.307226820367,NA
+1991,"Child wasting",118184.697887837,NA
+1991,"Child stunting",30880.6280150629,NA
+1991,"Low birth weight for gestation",68308.7625100918,NA
+1991,"Secondhand smoke",35624.7370496032,NA
+1991,"Alcohol use",13395.1365794273,NA
+1991,"Drug use",2457.43182446614,NA
+1991,"Diet low in fruits",62732.8205168675,NA
+1991,"Diet low in vegetables",44536.9105328694,NA
+1991,"Unsafe sex",6403.34919790572,NA
+1991,"Low physical activity",14086.9298899155,NA
+1991,"High fasting plasma glucose",128491.257687545,NA
+1991,"High total cholesterol",NA,NA
+1991,"High body mass index",33523.3727827059,NA
+1991,"High systolic blood pressure",190650.290349589,NA
+1991,"Smoking",110195.246174907,NA
+1991,"Iron deficiency",5936.95533153883,NA
+1991,"Vitamin A deficiency",36993.5437275608,NA
+1991,"Low bone mineral density",6317.16677514529,NA
+1991,"Air pollution",111828.427268408,NA
+1991,"Outdoor air pollution",21883.95,NA
+1991,"Diet high in sodium",95172.9556583832,NA
+1991,"Diet low in whole grains",43399.8801367844,NA
+1991,"Diet low in nuts and seeds",30066.3567330186,NA
+1992,"Unsafe water source",73832.35795303,NA
+1992,"Unsafe sanitation",59175.4553177747,NA
+1992,"No access to handwashing facility",25588.4968564173,NA
+1992,"Household air pollution from solid fuels",87379.4385549104,NA
+1992,"Non exclusive breastfeeding",16151.7872806576,NA
+1992,"Discontinued breastfeeding",795.030237001953,NA
+1992,"Child wasting",108396.621747074,NA
+1992,"Child stunting",27687.1308552951,NA
+1992,"Low birth weight for gestation",68201.798226854,NA
+1992,"Secondhand smoke",35212.8553716914,NA
+1992,"Alcohol use",13719.1789722589,NA
+1992,"Drug use",2584.77229687004,NA
+1992,"Diet low in fruits",63846.3342845797,NA
+1992,"Diet low in vegetables",45284.3217062463,NA
+1992,"Unsafe sex",6543.45692265172,NA
+1992,"Low physical activity",14513.3830178982,NA
+1992,"High fasting plasma glucose",132600.016358793,NA
+1992,"High total cholesterol",NA,NA
+1992,"High body mass index",34954.5032843703,NA
+1992,"High systolic blood pressure",195636.051709925,NA
+1992,"Smoking",113835.238712281,NA
+1992,"Iron deficiency",5682.25026696308,NA
+1992,"Vitamin A deficiency",33967.6484240202,NA
+1992,"Low bone mineral density",6546.11316473765,NA
+1992,"Air pollution",109448.152951821,NA
+1992,"Outdoor air pollution",22704.13,NA
+1992,"Diet high in sodium",99086.9629034977,NA
+1992,"Diet low in whole grains",44384.9940722194,NA
+1992,"Diet low in nuts and seeds",30848.8342050823,NA
+1993,"Unsafe water source",71165.7255631943,NA
+1993,"Unsafe sanitation",56610.3398646104,NA
+1993,"No access to handwashing facility",24269.5291746165,NA
+1993,"Household air pollution from solid fuels",84876.2118841091,NA
+1993,"Non exclusive breastfeeding",15088.7570568707,NA
+1993,"Discontinued breastfeeding",691.422178496462,NA
+1993,"Child wasting",100617.607611614,NA
+1993,"Child stunting",25107.0965051614,NA
+1993,"Low birth weight for gestation",68052.8163568515,NA
+1993,"Secondhand smoke",35076.3791158336,NA
+1993,"Alcohol use",14018.3116016874,NA
+1993,"Drug use",2711.67004819168,NA
+1993,"Diet low in fruits",65021.1927691179,NA
+1993,"Diet low in vegetables",46120.626290896,NA
+1993,"Unsafe sex",6741.73960844398,NA
+1993,"Low physical activity",14973.1280380053,NA
+1993,"High fasting plasma glucose",136987.064597592,NA
+1993,"High total cholesterol",NA,NA
+1993,"High body mass index",36587.9444156386,NA
+1993,"High systolic blood pressure",201151.368153422,NA
+1993,"Smoking",117113.53307616,NA
+1993,"Iron deficiency",5498.81427886371,NA
+1993,"Vitamin A deficiency",31491.1492790714,NA
+1993,"Low bone mineral density",6787.55022960409,NA
+1993,"Air pollution",107768.850737755,NA
+1993,"Outdoor air pollution",23539.02,NA
+1993,"Diet high in sodium",99751.4713791172,NA
+1993,"Diet low in whole grains",45480.5651959918,NA
+1993,"Diet low in nuts and seeds",31696.2144155392,NA
+1994,"Unsafe water source",68598.7024753228,NA
+1994,"Unsafe sanitation",54061.4400467255,NA
+1994,"No access to handwashing facility",23026.0039310969,NA
+1994,"Household air pollution from solid fuels",82201.6677939906,NA
+1994,"Non exclusive breastfeeding",14177.8581252823,NA
+1994,"Discontinued breastfeeding",619.853670385839,NA
+1994,"Child wasting",93546.2205175201,NA
+1994,"Child stunting",22786.0238896717,NA
+1994,"Low birth weight for gestation",67823.8926226704,NA
+1994,"Secondhand smoke",34922.745431076,NA
+1994,"Alcohol use",14290.6229392687,NA
+1994,"Drug use",2839.7736829709,NA
+1994,"Diet low in fruits",66162.3637354627,NA
+1994,"Diet low in vegetables",46874.1062859352,NA
+1994,"Unsafe sex",6945.34779455648,NA
+1994,"Low physical activity",15431.5764098983,NA
+1994,"High fasting plasma glucose",140882.307144875,NA
+1994,"High total cholesterol",NA,NA
+1994,"High body mass index",38190.951704406,NA
+1994,"High systolic blood pressure",206348.104248948,NA
+1994,"Smoking",120266.332612053,NA
+1994,"Iron deficiency",5349.7478525434,NA
+1994,"Vitamin A deficiency",29215.1555962928,NA
+1994,"Low bone mineral density",7021.85491738089,NA
+1994,"Air pollution",105995.514561013,NA
+1994,"Outdoor air pollution",24449.81,NA
+1994,"Diet high in sodium",100225.126091649,NA
+1994,"Diet low in whole grains",46485.7289879024,NA
+1994,"Diet low in nuts and seeds",32527.7166470765,NA
+1995,"Unsafe water source",66030.3238544663,4.2682440157443
+1995,"Unsafe sanitation",51394.1179881964,3.32214994176101
+1995,"No access to handwashing facility",21779.423353344,1.40783639951789
+1995,"Household air pollution from solid fuels",79861.9233126881,5.16232779679385
+1995,"Non exclusive breastfeeding",13136.6891437002,0.849164316502117
+1995,"Discontinued breastfeeding",569.546919076456,0.0368158913530644
+1995,"Child wasting",86706.0962723808,5.6047396853424
+1995,"Child stunting",20662.2986129857,1.33562471389322
+1995,"Low birth weight for gestation",67367.671732915,4.35469107136889
+1995,"Secondhand smoke",34820.676158575,2.25083164767721
+1995,"Alcohol use",14551.4935131541,0.940618211180573
+1995,"Drug use",2970.98635691462,0.192046532540231
+1995,"Diet low in fruits",67190.9412395674,4.34326709482907
+1995,"Diet low in vegetables",47752.1040245085,3.08672773877394
+1995,"Unsafe sex",7195.93669723101,0.465150130314764
+1995,"Low physical activity",15954.6224515506,1.03131739823633
+1995,"High fasting plasma glucose",145020.166243022,9.37419992204316
+1995,"High total cholesterol",76641.5253522,4.95415913244708
+1995,"High body mass index",39973.5612047222,2.58391756151448
+1995,"High systolic blood pressure",212212.19779763,13.7175374955611
+1995,"Smoking",123361.884889818,7.97419422192167
+1995,"Iron deficiency",5144.36648122446,0.332535268139483
+1995,"Vitamin A deficiency",26973.0827650302,1.74355799544104
+1995,"Low bone mineral density",7284.10268988106,0.470849238672162
+1995,"Air pollution",104519.603025355,6.75621660018207
+1995,"Outdoor air pollution",25325.44,1.63705327213505
+1995,"Diet high in sodium",101479.199284497,6.55968288181097
+1995,"Diet low in whole grains",47621.5018072408,3.07828552465541
+1995,"Diet low in nuts and seeds",33512.3147951526,2.16625829964749
+1996,"Unsafe water source",62780.9909524868,NA
+1996,"Unsafe sanitation",48087.361275899,NA
+1996,"No access to handwashing facility",20469.8941432532,NA
+1996,"Household air pollution from solid fuels",77921.3932196576,NA
+1996,"Non exclusive breastfeeding",12024.8322128738,NA
+1996,"Discontinued breastfeeding",514.943664563407,NA
+1996,"Child wasting",80081.2378906103,NA
+1996,"Child stunting",18847.2354731414,NA
+1996,"Low birth weight for gestation",65626.0194925362,NA
+1996,"Secondhand smoke",34871.9321535986,NA
+1996,"Alcohol use",14845.2926486918,NA
+1996,"Drug use",3105.21409770682,NA
+1996,"Diet low in fruits",68400.4843986187,NA
+1996,"Diet low in vegetables",48890.3284089743,NA
+1996,"Unsafe sex",7478.4069832521,NA
+1996,"Low physical activity",16550.6699857418,NA
+1996,"High fasting plasma glucose",148671.232063211,NA
+1996,"High total cholesterol",NA,NA
+1996,"High body mass index",41961.5836536147,NA
+1996,"High systolic blood pressure",219136.171685785,NA
+1996,"Smoking",127070.042756225,NA
+1996,"Iron deficiency",4937.51090457864,NA
+1996,"Vitamin A deficiency",24648.2759585965,NA
+1996,"Low bone mineral density",7570.74428194533,NA
+1996,"Air pollution",103725.95446868,NA
+1996,"Outdoor air pollution",26485.32,NA
+1996,"Diet high in sodium",103352.169730636,NA
+1996,"Diet low in whole grains",48958.3308701662,NA
+1996,"Diet low in nuts and seeds",34662.9898852768,NA
+1997,"Unsafe water source",60102.7157244971,NA
+1997,"Unsafe sanitation",45249.8447403446,NA
+1997,"No access to handwashing facility",19454.4475647005,NA
+1997,"Household air pollution from solid fuels",76802.010497375,NA
+1997,"Non exclusive breastfeeding",11168.3254730861,NA
+1997,"Discontinued breastfeeding",482.607457018343,NA
+1997,"Child wasting",76526.2885004976,NA
+1997,"Child stunting",17633.0318769746,NA
+1997,"Low birth weight for gestation",63577.8607598541,NA
+1997,"Secondhand smoke",35227.9240929108,NA
+1997,"Alcohol use",15190.8606009969,NA
+1997,"Drug use",3243.86710682908,NA
+1997,"Diet low in fruits",69672.9614793335,NA
+1997,"Diet low in vegetables",50194.702074034,NA
+1997,"Unsafe sex",7771.09572963823,NA
+1997,"Low physical activity",17240.9207507554,NA
+1997,"High fasting plasma glucose",151670.735792924,NA
+1997,"High total cholesterol",NA,NA
+1997,"High body mass index",44108.1077596249,NA
+1997,"High systolic blood pressure",226869.001282346,NA
+1997,"Smoking",131589.994453614,NA
+1997,"Iron deficiency",4794.98902099312,NA
+1997,"Vitamin A deficiency",22754.936850654,NA
+1997,"Low bone mineral density",7911.50228230864,NA
+1997,"Air pollution",103850.719004967,NA
+1997,"Outdoor air pollution",27748.81,NA
+1997,"Diet high in sodium",105414.376540029,NA
+1997,"Diet low in whole grains",50453.2114761289,NA
+1997,"Diet low in nuts and seeds",35949.0408453128,NA
+1998,"Unsafe water source",58405.2876989857,NA
+1998,"Unsafe sanitation",43212.048638904,NA
+1998,"No access to handwashing facility",18926.9873152987,NA
+1998,"Household air pollution from solid fuels",76867.4345510474,NA
+1998,"Non exclusive breastfeeding",10766.3003470401,NA
+1998,"Discontinued breastfeeding",471.283278996399,NA
+1998,"Child wasting",73769.8820745504,NA
+1998,"Child stunting",16907.8268353763,NA
+1998,"Low birth weight for gestation",63075.0343573528,NA
+1998,"Secondhand smoke",35955.5888982057,NA
+1998,"Alcohol use",15598.2527409747,NA
+1998,"Drug use",3396.75764247318,NA
+1998,"Diet low in fruits",71432.4412535501,NA
+1998,"Diet low in vegetables",51878.0231443821,NA
+1998,"Unsafe sex",8108.51810763189,NA
+1998,"Low physical activity",17985.6318984042,NA
+1998,"High fasting plasma glucose",154851.727620911,NA
+1998,"High total cholesterol",NA,NA
+1998,"High body mass index",46622.0941035843,NA
+1998,"High systolic blood pressure",235388.006285485,NA
+1998,"Smoking",136682.861560039,NA
+1998,"Iron deficiency",4758.24840376796,NA
+1998,"Vitamin A deficiency",21319.5382945691,NA
+1998,"Low bone mineral density",8243.5346040077,NA
+1998,"Air pollution",105125.668672467,NA
+1998,"Outdoor air pollution",28979.55,NA
+1998,"Diet high in sodium",107541.464242574,NA
+1998,"Diet low in whole grains",52522.4730253037,NA
+1998,"Diet low in nuts and seeds",37404.6655290664,NA
+1999,"Unsafe water source",57498.5105743272,NA
+1999,"Unsafe sanitation",41773.6400141795,NA
+1999,"No access to handwashing facility",18539.4684982862,NA
+1999,"Household air pollution from solid fuels",76592.9040034626,NA
+1999,"Non exclusive breastfeeding",10361.4482880955,NA
+1999,"Discontinued breastfeeding",466.373723032417,NA
+1999,"Child wasting",70575.9761942689,NA
+1999,"Child stunting",15956.0346009664,NA
+1999,"Low birth weight for gestation",61262.8295347438,NA
+1999,"Secondhand smoke",36353.9021180888,NA
+1999,"Alcohol use",16025.2959092082,NA
+1999,"Drug use",3548.60391927432,NA
+1999,"Diet low in fruits",74177.2901466578,NA
+1999,"Diet low in vegetables",54125.9724479109,NA
+1999,"Unsafe sex",8517.05634114309,NA
+1999,"Low physical activity",18890.5108535905,NA
+1999,"High fasting plasma glucose",159102.419316139,NA
+1999,"High total cholesterol",NA,NA
+1999,"High body mass index",49610.2090278741,NA
+1999,"High systolic blood pressure",246006.013971411,NA
+1999,"Smoking",142533.321794541,NA
+1999,"Iron deficiency",4617.72712816565,NA
+1999,"Vitamin A deficiency",20102.0887546042,NA
+1999,"Low bone mineral density",8278.36011590424,NA
+1999,"Air pollution",105847.107226906,NA
+1999,"Outdoor air pollution",29992.88,NA
+1999,"Diet high in sodium",110608.713387439,NA
+1999,"Diet low in whole grains",55221.2170879959,NA
+1999,"Diet low in nuts and seeds",39120.1709081273,NA
+2000,"Unsafe water source",56664.2035447729,3.41367189552823
+2000,"Unsafe sanitation",40417.4123578383,2.43490203734904
+2000,"No access to handwashing facility",18114.0226462049,1.09125913988101
+2000,"Household air pollution from solid fuels",76210.4526041535,4.5912139221144
+2000,"Non exclusive breastfeeding",9829.00569256156,0.592137511774478
+2000,"Discontinued breastfeeding",459.452407724534,0.0276791990968821
+2000,"Child wasting",66291.2079303685,3.99364006331988
+2000,"Child stunting",14775.5242316898,0.890135017455281
+2000,"Low birth weight for gestation",58334.78027927,3.51431393214259
+2000,"Secondhand smoke",36647.2583768085,2.20777330559715
+2000,"Alcohol use",16359.2659104951,0.985545772755888
+2000,"Drug use",3704.51459595444,0.223174360031226
+2000,"Diet low in fruits",77208.010747994,4.65131070256403
+2000,"Diet low in vegetables",56789.2385516306,3.42120449039705
+2000,"Unsafe sex",8963.41608098761,0.539991028717385
+2000,"Low physical activity",19934.0168580255,1.20090266616842
+2000,"High fasting plasma glucose",165478.158114198,9.96904751748377
+2000,"High total cholesterol",90546.9730343,5.45490164400018
+2000,"High body mass index",53141.28529096,3.20143760507744
+2000,"High systolic blood pressure",258315.254698752,15.5619151066792
+2000,"Smoking",148838.076533843,8.96658431714479
+2000,"Iron deficiency",4441.44600861734,0.267569973045561
+2000,"Vitamin A deficiency",18777.1731214139,1.13120990241028
+2000,"Low bone mineral density",8025.41514068414,0.483482205728937
+2000,"Air pollution",106410.225937898,6.41056566504096
+2000,"Outdoor air pollution",30951.05,1.86461156978241
+2000,"Diet high in sodium",114790.46432458,6.91542380243344
+2000,"Diet low in whole grains",58401.619488318,3.51834058592351
+2000,"Diet low in nuts and seeds",41100.5193884929,2.4760550603566
+2001,"Unsafe water source",56201.527107878,NA
+2001,"Unsafe sanitation",39368.2638167626,NA
+2001,"No access to handwashing facility",17900.0292001164,NA
+2001,"Household air pollution from solid fuels",76521.2361210543,NA
+2001,"Non exclusive breastfeeding",9529.45250514723,NA
+2001,"Discontinued breastfeeding",470.296897000609,NA
+2001,"Child wasting",63322.5247622262,NA
+2001,"Child stunting",13782.9018691471,NA
+2001,"Low birth weight for gestation",56107.7180486122,NA
+2001,"Secondhand smoke",36969.0356379146,NA
+2001,"Alcohol use",16600.0001053081,NA
+2001,"Drug use",3862.70316173733,NA
+2001,"Diet low in fruits",79765.1390422428,NA
+2001,"Diet low in vegetables",59189.8994124908,NA
+2001,"Unsafe sex",9364.9657415633,NA
+2001,"Low physical activity",20855.7994030105,NA
+2001,"High fasting plasma glucose",172153.294424729,NA
+2001,"High total cholesterol",NA,NA
+2001,"High body mass index",56780.0281897037,NA
+2001,"High systolic blood pressure",269654.203353695,NA
+2001,"Smoking",154475.878324303,NA
+2001,"Iron deficiency",4167.09886567359,NA
+2001,"Vitamin A deficiency",17362.4763489842,NA
+2001,"Low bone mineral density",7894.72476905213,NA
+2001,"Air pollution",108082.032940336,NA
+2001,"Outdoor air pollution",32331.8,NA
+2001,"Diet high in sodium",118622.977784072,NA
+2001,"Diet low in whole grains",61355.9510323301,NA
+2001,"Diet low in nuts and seeds",42903.693081879,NA
+2002,"Unsafe water source",56156.4744083396,NA
+2002,"Unsafe sanitation",38641.2842438233,NA
+2002,"No access to handwashing facility",17869.5918175924,NA
+2002,"Household air pollution from solid fuels",77038.9373165818,NA
+2002,"Non exclusive breastfeeding",9358.29480960777,NA
+2002,"Discontinued breastfeeding",485.669580551686,NA
+2002,"Child wasting",61492.4295991888,NA
+2002,"Child stunting",13267.6807271912,NA
+2002,"Low birth weight for gestation",54094.4174158499,NA
+2002,"Secondhand smoke",37204.3906444391,NA
+2002,"Alcohol use",16803.370455175,NA
+2002,"Drug use",4054.75951160434,NA
+2002,"Diet low in fruits",82202.4456945155,NA
+2002,"Diet low in vegetables",61593.7693526405,NA
+2002,"Unsafe sex",9748.96988983801,NA
+2002,"Low physical activity",21794.6288957246,NA
+2002,"High fasting plasma glucose",179841.383731242,NA
+2002,"High total cholesterol",NA,NA
+2002,"High body mass index",60916.3804543042,NA
+2002,"High systolic blood pressure",281255.509616849,NA
+2002,"Smoking",160591.552277543,NA
+2002,"Iron deficiency",3987.11392570592,NA
+2002,"Vitamin A deficiency",16596.1798774095,NA
+2002,"Low bone mineral density",7830.18017600934,NA
+2002,"Air pollution",110247.614818066,NA
+2002,"Outdoor air pollution",34006.6,NA
+2002,"Diet high in sodium",122621.035403477,NA
+2002,"Diet low in whole grains",64308.5475538608,NA
+2002,"Diet low in nuts and seeds",44796.1506653778,NA
+2003,"Unsafe water source",56120.2534571425,NA
+2003,"Unsafe sanitation",37917.1939843288,NA
+2003,"No access to handwashing facility",17858.9091454234,NA
+2003,"Household air pollution from solid fuels",77709.4182755032,NA
+2003,"Non exclusive breastfeeding",9168.5181778018,NA
+2003,"Discontinued breastfeeding",496.417972065361,NA
+2003,"Child wasting",59580.5151462688,NA
+2003,"Child stunting",12728.7495472192,NA
+2003,"Low birth weight for gestation",51895.5516205979,NA
+2003,"Secondhand smoke",37301.8502166541,NA
+2003,"Alcohol use",17018.80650433,NA
+2003,"Drug use",4257.30678096635,NA
+2003,"Diet low in fruits",84251.7888840324,NA
+2003,"Diet low in vegetables",63745.8821370308,NA
+2003,"Unsafe sex",10156.1329802828,NA
+2003,"Low physical activity",22642.0910704617,NA
+2003,"High fasting plasma glucose",187496.315194007,NA
+2003,"High total cholesterol",NA,NA
+2003,"High body mass index",65219.0212382376,NA
+2003,"High systolic blood pressure",291888.876499147,NA
+2003,"Smoking",166293.924550587,NA
+2003,"Iron deficiency",3804.69135460649,NA
+2003,"Vitamin A deficiency",15754.3782861183,NA
+2003,"Low bone mineral density",7810.65086550793,NA
+2003,"Air pollution",112477.708260584,NA
+2003,"Outdoor air pollution",35600.1,NA
+2003,"Diet high in sodium",123483.377721232,NA
+2003,"Diet low in whole grains",67010.411047963,NA
+2003,"Diet low in nuts and seeds",46527.4350954284,NA
+2004,"Unsafe water source",56407.847680265,NA
+2004,"Unsafe sanitation",37424.1547890987,NA
+2004,"No access to handwashing facility",17997.0918365116,NA
+2004,"Household air pollution from solid fuels",78193.0984078169,NA
+2004,"Non exclusive breastfeeding",9017.53728475,NA
+2004,"Discontinued breastfeeding",508.579491919862,NA
+2004,"Child wasting",57051.9281495414,NA
+2004,"Child stunting",11654.2873348263,NA
+2004,"Low birth weight for gestation",49153.1094537253,NA
+2004,"Secondhand smoke",37448.5565087388,NA
+2004,"Alcohol use",18638.1572180396,NA
+2004,"Drug use",4477.53649848353,NA
+2004,"Diet low in fruits",86268.062778957,NA
+2004,"Diet low in vegetables",65774.284449844,NA
+2004,"Unsafe sex",10588.2131717667,NA
+2004,"Low physical activity",23440.4303832424,NA
+2004,"High fasting plasma glucose",195109.722873538,NA
+2004,"High total cholesterol",NA,NA
+2004,"High body mass index",69719.744434772,NA
+2004,"High systolic blood pressure",301872.850152123,NA
+2004,"Smoking",171910.305008663,NA
+2004,"Iron deficiency",3567.80132408793,NA
+2004,"Vitamin A deficiency",13984.1322338196,NA
+2004,"Low bone mineral density",7743.82538796614,NA
+2004,"Air pollution",114453.651393488,NA
+2004,"Outdoor air pollution",37126.62,NA
+2004,"Diet high in sodium",123989.705153484,NA
+2004,"Diet low in whole grains",69554.964599161,NA
+2004,"Diet low in nuts and seeds",48234.882594807,NA
+2005,"Unsafe water source",56182.4674678101,3.02855184211432
+2005,"Unsafe sanitation",36583.9614724753,1.97208184159561
+2005,"No access to handwashing facility",18019.4758428003,0.971351370228
+2005,"Household air pollution from solid fuels",78386.4646957971,4.22547251395292
+2005,"Non exclusive breastfeeding",8777.70114946611,0.473167594516488
+2005,"Discontinued breastfeeding",505.946316341165,0.0272733597762312
+2005,"Child wasting",54846.5809381909,2.956540024327
+2005,"Child stunting",11062.040388096,0.596306362195756
+2005,"Low birth weight for gestation",46689.2155494564,2.51681202574797
+2005,"Secondhand smoke",37683.9869799792,2.03137942013348
+2005,"Alcohol use",17444.2637570889,0.940344194852769
+2005,"Drug use",4689.24424260493,0.252776710051085
+2005,"Diet low in fruits",87724.8460741826,4.72886393480996
+2005,"Diet low in vegetables",67565.0333818685,3.64213633778925
+2005,"Unsafe sex",11000.1693616628,0.592971164944312
+2005,"Low physical activity",24189.3035428565,1.30393987850666
+2005,"High fasting plasma glucose",202618.088257573,10.922257638288
+2005,"High total cholesterol",104307.010303,5.62273610320841
+2005,"High body mass index",74293.0289835711,4.00481324379997
+2005,"High systolic blood pressure",311196.219130043,16.775231227523
+2005,"Smoking",177119.549616751,9.54774260446305
+2005,"Iron deficiency",3361.52723583159,0.181205275617846
+2005,"Vitamin A deficiency",13336.2648272657,0.718899885140879
+2005,"Low bone mineral density",7829.02499921778,0.422028599881718
+2005,"Air pollution",115809.941080932,6.24280894385358
+2005,"Outdoor air pollution",38321.43,2.06574119382441
+2005,"Diet high in sodium",123952.360984703,6.68173129650677
+2005,"Diet low in whole grains",71815.7860707367,3.8712758801851
+2005,"Diet low in nuts and seeds",49782.5376529009,2.68355953216547
+2006,"Unsafe water source",55636.6400187487,2.94152351953572
+2006,"Unsafe sanitation",35383.6622938655,1.87074335922587
+2006,"No access to handwashing facility",18042.098570874,0.953890408732871
+2006,"Household air pollution from solid fuels",78751.7605040646,4.16362590640786
+2006,"Non exclusive breastfeeding",8491.9579769636,0.448972010310647
+2006,"Discontinued breastfeeding",508.893295521755,0.0269053198972268
+2006,"Child wasting",52665.8702791619,2.78445815654517
+2006,"Child stunting",10560.8938013811,0.558357181411622
+2006,"Low birth weight for gestation",44965.9507882593,2.37736142544514
+2006,"Secondhand smoke",38168.5495948946,2.01798106970719
+2006,"Alcohol use",17831.3165492014,0.942746308836898
+2006,"Drug use",4890.41716958439,0.25855761814204
+2006,"Diet low in fruits",88945.1708574261,4.70255414306247
+2006,"Diet low in vegetables",69169.9660567037,3.65703396058275
+2006,"Unsafe sex",11302.1016279946,0.597545030536099
+2006,"Low physical activity",24947.3766368611,1.31897424257313
+2006,"High fasting plasma glucose",211881.290726876,11.2022185346323
+2006,"High total cholesterol",106875.992582,5.65056131620705
+2006,"High body mass index",79253.8583532973,4.19017194930564
+2006,"High systolic blood pressure",320098.210987189,16.9236750433316
+2006,"Smoking",182533.306986019,9.65058305852173
+2006,"Iron deficiency",3166.32362823493,0.167404347562616
+2006,"Vitamin A deficiency",12888.3741314139,0.68141166726377
+2006,"Low bone mineral density",8023.46576592283,0.42420270617885
+2006,"Air pollution",117628.038518199,6.21902476032949
+2006,"Outdoor air pollution",39812.1,2.10487600388241
+2006,"Diet high in sodium",123764.833150162,6.54347867664066
+2006,"Diet low in whole grains",73909.2811225089,3.9076027714933
+2006,"Diet low in nuts and seeds",51324.8771509134,2.71355950369788
+2007,"Unsafe water source",55240.2360927881,NA
+2007,"Unsafe sanitation",34194.7555362347,NA
+2007,"No access to handwashing facility",18110.0579909329,NA
+2007,"Household air pollution from solid fuels",78809.4714296572,NA
+2007,"Non exclusive breastfeeding",8123.68772583015,NA
+2007,"Discontinued breastfeeding",521.006433912916,NA
+2007,"Child wasting",50100.6966991671,NA
+2007,"Child stunting",9795.23974481163,NA
+2007,"Low birth weight for gestation",43608.4882466613,NA
+2007,"Secondhand smoke",38593.1117304927,NA
+2007,"Alcohol use",18106.6548628276,NA
+2007,"Drug use",5073.27404454753,NA
+2007,"Diet low in fruits",89961.6509790661,NA
+2007,"Diet low in vegetables",70585.0390020474,NA
+2007,"Unsafe sex",11542.1880379545,NA
+2007,"Low physical activity",25636.0170008447,NA
+2007,"High fasting plasma glucose",221539.46724378,NA
+2007,"High total cholesterol",NA,NA
+2007,"High body mass index",84660.4884013155,NA
+2007,"High systolic blood pressure",328908.224420706,NA
+2007,"Smoking",187990.59717205,NA
+2007,"Iron deficiency",3045.9169377107,NA
+2007,"Vitamin A deficiency",11975.0066297102,NA
+2007,"Low bone mineral density",8250.03832955233,NA
+2007,"Air pollution",118990.160321477,NA
+2007,"Outdoor air pollution",41158.23,NA
+2007,"Diet high in sodium",123437.431628679,NA
+2007,"Diet low in whole grains",75699.742462514,NA
+2007,"Diet low in nuts and seeds",52535.2534492951,NA
+2008,"Unsafe water source",55314.1522258424,NA
+2008,"Unsafe sanitation",33034.7473568716,NA
+2008,"No access to handwashing facility",18194.1071188372,NA
+2008,"Household air pollution from solid fuels",78945.2854750993,NA
+2008,"Non exclusive breastfeeding",7713.01431785431,NA
+2008,"Discontinued breastfeeding",533.157442508661,NA
+2008,"Child wasting",48212.6700646458,NA
+2008,"Child stunting",8979.19519202065,NA
+2008,"Low birth weight for gestation",42602.2025104069,NA
+2008,"Secondhand smoke",39370.3046939578,NA
+2008,"Alcohol use",18443.6758746636,NA
+2008,"Drug use",5262.79993034099,NA
+2008,"Diet low in fruits",91604.4050763703,NA
+2008,"Diet low in vegetables",72654.3936485847,NA
+2008,"Unsafe sex",11824.9156009743,NA
+2008,"Low physical activity",26616.0341411679,NA
+2008,"High fasting plasma glucose",234806.70171237,NA
+2008,"High total cholesterol",NA,NA
+2008,"High body mass index",91119.9530987587,NA
+2008,"High systolic blood pressure",340336.926055187,NA
+2008,"Smoking",192953.402719607,NA
+2008,"Iron deficiency",2860.04601478424,NA
+2008,"Vitamin A deficiency",10908.6748902122,NA
+2008,"Low bone mineral density",7434.79868860928,NA
+2008,"Air pollution",120382.440685841,NA
+2008,"Outdoor air pollution",42416.78,NA
+2008,"Diet high in sodium",123937.342051204,NA
+2008,"Diet low in whole grains",78177.841987325,NA
+2008,"Diet low in nuts and seeds",54491.8624322886,NA
+2009,"Unsafe water source",54855.249826378,NA
+2009,"Unsafe sanitation",31602.0336404092,NA
+2009,"No access to handwashing facility",18007.2891084341,NA
+2009,"Household air pollution from solid fuels",78560.7513040931,NA
+2009,"Non exclusive breastfeeding",7107.12621163129,NA
+2009,"Discontinued breastfeeding",523.93825785602,NA
+2009,"Child wasting",45816.4227437086,NA
+2009,"Child stunting",8241.96991320212,NA
+2009,"Low birth weight for gestation",41227.5262670242,NA
+2009,"Secondhand smoke",39970.589901633,NA
+2009,"Alcohol use",18759.1970680003,NA
+2009,"Drug use",5448.04982107495,NA
+2009,"Diet low in fruits",93201.8175577327,NA
+2009,"Diet low in vegetables",74361.0390274335,NA
+2009,"Unsafe sex",12117.9773287972,NA
+2009,"Low physical activity",27505.4195116888,NA
+2009,"High fasting plasma glucose",247231.037305328,NA
+2009,"High total cholesterol",NA,NA
+2009,"High body mass index",97286.8393591357,NA
+2009,"High systolic blood pressure",350581.178697121,NA
+2009,"Smoking",197557.972252731,NA
+2009,"Iron deficiency",2693.82010774108,NA
+2009,"Vitamin A deficiency",10130.4221120564,NA
+2009,"Low bone mineral density",7025.81837647741,NA
+2009,"Air pollution",121052.38995001,NA
+2009,"Outdoor air pollution",43481.93,NA
+2009,"Diet high in sodium",123741.200289207,NA
+2009,"Diet low in whole grains",80230.7970101107,NA
+2009,"Diet low in nuts and seeds",56234.5840356901,NA
+2010,"Unsafe water source",53925.3499955019,2.64899055421007
+2010,"Unsafe sanitation",29904.4591019606,1.46900538793838
+2010,"No access to handwashing facility",17631.287234672,0.866106818909968
+2010,"Household air pollution from solid fuels",77574.7980964827,3.81072922882238
+2010,"Non exclusive breastfeeding",6405.33402108478,0.314651074491483
+2010,"Discontinued breastfeeding",498.335863783837,0.0244798966737835
+2010,"Child wasting",42959.2208594849,2.11029822305265
+2010,"Child stunting",7482.49020355666,0.367564528980235
+2010,"Low birth weight for gestation",38979.304148788,1.91479162413288
+2010,"Secondhand smoke",40468.2245277375,1.98793229025998
+2010,"Alcohol use",18967.4006192758,0.931741102887063
+2010,"Drug use",5622.58275618269,0.276199757862206
+2010,"Diet low in fruits",94046.3402309305,4.61986555396566
+2010,"Diet low in vegetables",75763.4066364534,3.72174772257357
+2010,"Unsafe sex",12410.5571615037,0.609647386545471
+2010,"Low physical activity",28339.0608769554,1.39210787847461
+2010,"High fasting plasma glucose",258094.512983522,12.6784513599602
+2010,"High total cholesterol",114688.058711,5.63385465706705
+2010,"High body mass index",102823.844364768,5.05104542654904
+2010,"High systolic blood pressure",360175.632274716,17.6930116880455
+2010,"Smoking",201696.954212897,9.90801777953176
+2010,"Iron deficiency",2510.28379940453,0.123313396641168
+2010,"Vitamin A deficiency",9365.145016529,0.460046725513366
+2010,"Low bone mineral density",6694.44881996596,0.328853344321582
+2010,"Air pollution",121000.155914827,5.94392563243556
+2010,"Outdoor air pollution",44427.87,2.18244309927501
+2010,"Diet high in sodium",123479.899672398,6.06573880177457
+2010,"Diet low in whole grains",81957.249137606,4.02600963800271
+2010,"Diet low in nuts and seeds",57802.103173643,2.8394294211021
+2011,"Unsafe water source",52878.2691723781,NA
+2011,"Unsafe sanitation",28126.1899658287,NA
+2011,"No access to handwashing facility",17152.574660792,NA
+2011,"Household air pollution from solid fuels",76558.4739763343,NA
+2011,"Non exclusive breastfeeding",5800.7674414703,NA
+2011,"Discontinued breastfeeding",464.094253944352,NA
+2011,"Child wasting",40183.9184121228,NA
+2011,"Child stunting",6796.09697700407,NA
+2011,"Low birth weight for gestation",37092.5197657993,NA
+2011,"Secondhand smoke",41054.9702212683,NA
+2011,"Alcohol use",19121.8078567092,NA
+2011,"Drug use",5831.80871773195,NA
+2011,"Diet low in fruits",94554.7565282675,NA
+2011,"Diet low in vegetables",77023.6065272972,NA
+2011,"Unsafe sex",12942.668908434,NA
+2011,"Low physical activity",29225.0319245208,NA
+2011,"High fasting plasma glucose",268561.520554329,NA
+2011,"High total cholesterol",NA,NA
+2011,"High body mass index",107965.823571465,NA
+2011,"High systolic blood pressure",369481.732061589,NA
+2011,"Smoking",205951.333055186,NA
+2011,"Iron deficiency",2314.13211994736,NA
+2011,"Vitamin A deficiency",8728.12525402873,NA
+2011,"Low bone mineral density",6555.8896724766,NA
+2011,"Air pollution",121623.303229246,NA
+2011,"Outdoor air pollution",46087.03,NA
+2011,"Diet high in sodium",123633.09723172,NA
+2011,"Diet low in whole grains",83462.1207352924,NA
+2011,"Diet low in nuts and seeds",59498.2189563895,NA
+2012,"Unsafe water source",51908.7304169936,NA
+2012,"Unsafe sanitation",26404.7541046062,NA
+2012,"No access to handwashing facility",16725.773080574,NA
+2012,"Household air pollution from solid fuels",75091.5171399134,NA
+2012,"Non exclusive breastfeeding",5316.72341956134,NA
+2012,"Discontinued breastfeeding",430.372172576302,NA
+2012,"Child wasting",37422.5698055791,NA
+2012,"Child stunting",6084.02009317453,NA
+2012,"Low birth weight for gestation",34688.6238629929,NA
+2012,"Secondhand smoke",41645.8186768954,NA
+2012,"Alcohol use",19088.6474003395,NA
+2012,"Drug use",5962.01482459907,NA
+2012,"Diet low in fruits",95665.7798546837,NA
+2012,"Diet low in vegetables",78507.7520096989,NA
+2012,"Unsafe sex",13399.6623379985,NA
+2012,"Low physical activity",30102.3191735675,NA
+2012,"High fasting plasma glucose",279507.165273615,NA
+2012,"High total cholesterol",NA,NA
+2012,"High body mass index",113646.448849631,NA
+2012,"High systolic blood pressure",379836.14316288,NA
+2012,"Smoking",209531.665146485,NA
+2012,"Iron deficiency",2171.93821674713,NA
+2012,"Vitamin A deficiency",8027.82777772658,NA
+2012,"Low bone mineral density",6861.13099690524,NA
+2012,"Air pollution",122291.685872381,NA
+2012,"Outdoor air pollution",48230.1,NA
+2012,"Diet high in sodium",123998.828549377,NA
+2012,"Diet low in whole grains",85340.5286129568,NA
+2012,"Diet low in nuts and seeds",61081.5419402473,NA
+2013,"Unsafe water source",50872.0902441782,NA
+2013,"Unsafe sanitation",25128.4516647583,NA
+2013,"No access to handwashing facility",16282.0436288912,NA
+2013,"Household air pollution from solid fuels",74204.8930305603,NA
+2013,"Non exclusive breastfeeding",4890.08325346569,NA
+2013,"Discontinued breastfeeding",386.018289545761,NA
+2013,"Child wasting",35366.5897940653,NA
+2013,"Child stunting",5598.3092091184,NA
+2013,"Low birth weight for gestation",33035.0306249564,NA
+2013,"Secondhand smoke",42325.5235268378,NA
+2013,"Alcohol use",19171.4346355961,NA
+2013,"Drug use",6131.55318242385,NA
+2013,"Diet low in fruits",96782.556235132,NA
+2013,"Diet low in vegetables",79904.6341622513,NA
+2013,"Unsafe sex",13778.9671441025,NA
+2013,"Low physical activity",30967.4671377284,NA
+2013,"High fasting plasma glucose",291010.018746403,NA
+2013,"High total cholesterol",NA,NA
+2013,"High body mass index",119402.153590557,NA
+2013,"High systolic blood pressure",390263.48976,NA
+2013,"Smoking",213027.574970737,NA
+2013,"Iron deficiency",2015.95007105703,NA
+2013,"Vitamin A deficiency",7657.55306592508,NA
+2013,"Low bone mineral density",7076.30792692072,NA
+2013,"Air pollution",121164.287909512,NA
+2013,"Outdoor air pollution",47984.45,NA
+2013,"Diet high in sodium",124276.638358255,NA
+2013,"Diet low in whole grains",87173.4970276741,NA
+2013,"Diet low in nuts and seeds",62552.0785411988,NA
+2014,"Unsafe water source",49778.0765853576,NA
+2014,"Unsafe sanitation",23874.9250404697,NA
+2014,"No access to handwashing facility",15756.6663337155,NA
+2014,"Household air pollution from solid fuels",73099.3036819209,NA
+2014,"Non exclusive breastfeeding",4382.26501732037,NA
+2014,"Discontinued breastfeeding",334.544236771611,NA
+2014,"Child wasting",33147.1752493977,NA
+2014,"Child stunting",5054.68438235998,NA
+2014,"Low birth weight for gestation",30836.9484585597,NA
+2014,"Secondhand smoke",43021.0393874581,NA
+2014,"Alcohol use",19303.7729049802,NA
+2014,"Drug use",6284.32837213778,NA
+2014,"Diet low in fruits",98115.6543939935,NA
+2014,"Diet low in vegetables",81313.9091541286,NA
+2014,"Unsafe sex",13975.0658862787,NA
+2014,"Low physical activity",31888.3216172292,NA
+2014,"High fasting plasma glucose",303159.256151117,NA
+2014,"High total cholesterol",NA,NA
+2014,"High body mass index",125181.068581569,NA
+2014,"High systolic blood pressure",401095.816503606,NA
+2014,"Smoking",216773.266390321,NA
+2014,"Iron deficiency",1867.87740497956,NA
+2014,"Vitamin A deficiency",7194.42944612043,NA
+2014,"Low bone mineral density",7307.66101147262,NA
+2014,"Air pollution",121288.42286245,NA
+2014,"Outdoor air pollution",49218.83,NA
+2014,"Diet high in sodium",124808.289253169,NA
+2014,"Diet low in whole grains",89043.8196681904,NA
+2014,"Diet low in nuts and seeds",64029.0280547161,NA
+2015,"Unsafe water source",49148.7673626694,NA
+2015,"Unsafe sanitation",22842.7792825821,NA
+2015,"No access to handwashing facility",15338.1594994151,NA
+2015,"Household air pollution from solid fuels",71568.9595871847,NA
+2015,"Non exclusive breastfeeding",4096.3907489189,NA
+2015,"Discontinued breastfeeding",296.806927561145,NA
+2015,"Child wasting",31677.5292605443,NA
+2015,"Child stunting",4610.47599898206,NA
+2015,"Low birth weight for gestation",28616.822502945,NA
+2015,"Secondhand smoke",43937.3441978303,NA
+2015,"Alcohol use",19274.1672001444,NA
+2015,"Drug use",6406.17192298667,NA
+2015,"Diet low in fruits",99381.3328342803,NA
+2015,"Diet low in vegetables",82850.4654881547,NA
+2015,"Unsafe sex",14135.410163509,NA
+2015,"Low physical activity",32863.2092165437,NA
+2015,"High fasting plasma glucose",314770.306828961,NA
+2015,"High total cholesterol",NA,NA
+2015,"High body mass index",131104.421100144,NA
+2015,"High systolic blood pressure",411928.326091141,NA
+2015,"Smoking",220818.756672321,NA
+2015,"Iron deficiency",1736.82972228513,NA
+2015,"Vitamin A deficiency",6893.90786158472,NA
+2015,"Low bone mineral density",7475.14327906928,NA
+2015,"Air pollution",122808.135502777,NA
+2015,"Outdoor air pollution",52306.4,NA
+2015,"Diet high in sodium",125373.341061495,NA
+2015,"Diet low in whole grains",90943.2947062342,NA
+2015,"Diet low in nuts and seeds",65771.8408502173,NA
+2016,"Unsafe water source",48576.2485581326,2.17714727262641
+2016,"Unsafe sanitation",21849.4778289711,0.979275519943205
+2016,"No access to handwashing facility",14938.5156116614,0.669531910890445
+2016,"Household air pollution from solid fuels",69941.6333803619,3.13472614450376
+2016,"Non exclusive breastfeeding",3719.4554128812,0.166702914452502
+2016,"Discontinued breastfeeding",259.628285700535,0.0116363249713106
+2016,"Child wasting",29800.4630374425,1.33563209903557
+2016,"Child stunting",4199.55703832045,0.1882206721105
+2016,"Low birth weight for gestation",27235.480690826,1.22067171230278
+2016,"Secondhand smoke",44675.3902007352,2.00231402827766
+2016,"Alcohol use",19677.1974683663,0.881915711336107
+2016,"Drug use",6602.87889821061,0.295935569571994
+2016,"Diet low in fruits",99663.3270332982,4.46682786489268
+2016,"Diet low in vegetables",83478.7941156673,3.74145048919466
+2016,"Unsafe sex",14300.3025558231,0.640927729729562
+2016,"Low physical activity",33648.2688151705,1.50808757065461
+2016,"High fasting plasma glucose",325460.947504261,14.5868904091541
+2016,"High total cholesterol",122688.480133,5.49879617781891
+2016,"High body mass index",135829.964072361,6.08778661586404
+2016,"High systolic blood pressure",419757.828345359,18.8131985954417
+2016,"Smoking",224416.968382536,10.0581828598892
+2016,"Iron deficiency",1669.4775517822,0.0748246026908375
+2016,"Vitamin A deficiency",6507.76782234342,0.291672769838231
+2016,"Low bone mineral density",7675.00149738062,0.343987217486113
+2016,"Air pollution",123050.482819362,5.51502083873221
+2016,"Outdoor air pollution",54210.24,2.42965810797804
+2016,"Diet high in sodium",128585.257478566,5.76308485996817
+2016,"Diet low in whole grains",91798.813301207,4.11434686583272
+2016,"Diet low in nuts and seeds",66970.1461416084,3.00154654481207
+2017,"Unsafe water source",49461.0933611832,NA
+2017,"Unsafe sanitation",21593.4522174774,NA
+2017,"No access to handwashing facility",14940.8492058495,NA
+2017,"Household air pollution from solid fuels",68117.2415093675,NA
+2017,"Non exclusive breastfeeding",3486.51800886904,NA
+2017,"Discontinued breastfeeding",239.636512359242,NA
+2017,"Child wasting",28546.186155302,NA
+2017,"Child stunting",3818.76422086823,NA
+2017,"Low birth weight for gestation",25853.7165983588,NA
+2017,"Secondhand smoke",45314.639983576,NA
+2017,"Alcohol use",20053.3952375089,NA
+2017,"Drug use",6837.09206027361,NA
+2017,"Diet low in fruits",99894.4079818337,NA
+2017,"Diet low in vegetables",84149.4423303221,NA
+2017,"Unsafe sex",14615.8614407312,NA
+2017,"Low physical activity",34355.8002748487,NA
+2017,"High fasting plasma glucose",333489.529150266,NA
+2017,"High total cholesterol",NA,NA
+2017,"High body mass index",139963.077998139,NA
+2017,"High systolic blood pressure",427217.720359026,NA
+2017,"Smoking",227477.422762728,NA
+2017,"Iron deficiency",1601.89663860493,NA
+2017,"Vitamin A deficiency",6163.2681172715,NA
+2017,"Low bone mineral density",7875.30401965391,NA
+2017,"Air pollution",123752.819654342,NA
+2017,"Outdoor air pollution",56780.92,NA
+2017,"Diet high in sodium",131798.25824796,NA
+2017,"Diet low in whole grains",92482.6281067271,NA
+2017,"Diet low in nuts and seeds",67921.1013860632,NA
